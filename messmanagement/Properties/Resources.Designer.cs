@@ -83,9 +83,29 @@ namespace messmanagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Opera_Snapshot_2025_09_13_183405_messmanager_app {
+            get {
+                object obj = ResourceManager.GetObject("Opera Snapshot_2025-09-13_183405_messmanager.app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Opera_Snapshot_2025_09_13_185739_messmanager_app {
             get {
                 object obj = ResourceManager.GetObject("Opera Snapshot_2025-09-13_185739_messmanager.app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Opera_Snapshot_2025_09_13_190005_messmanager_app {
+            get {
+                object obj = ResourceManager.GetObject("Opera Snapshot_2025-09-13_190005_messmanager.app", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,6 +153,16 @@ namespace messmanagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Opera_Snapshot_2025_09_13_193526_messmanager_app {
+            get {
+                object obj = ResourceManager.GetObject("Opera Snapshot_2025-09-13_193526_messmanager.app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap project_pic2 {
             get {
                 object obj = ResourceManager.GetObject("project pic2", resourceCulture);
@@ -156,6 +186,16 @@ namespace messmanagement.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_09_13_003706 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-09-13 003706", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_09_13_0037061 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-09-13 0037061", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

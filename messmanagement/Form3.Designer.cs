@@ -34,11 +34,6 @@ namespace messmanagement
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.toppnl = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.leftpnl = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -114,6 +109,11 @@ namespace messmanagement
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.toppnl.SuspendLayout();
             this.leftpnl.SuspendLayout();
             this.centerpnl.SuspendLayout();
@@ -143,63 +143,6 @@ namespace messmanagement
             this.toppnl.Name = "toppnl";
             this.toppnl.Size = new System.Drawing.Size(1538, 62);
             this.toppnl.TabIndex = 0;
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190114_messmanager_app;
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(848, 10);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(49, 44);
-            this.button14.TabIndex = 4;
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190103_messmanager_app;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(762, 10);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(49, 44);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190053_messmanager_app;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(680, 10);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 44);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_185739_messmanager_app;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(598, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(49, 44);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190031_messmanager_app;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(514, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 44);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // leftpnl
             // 
@@ -950,6 +893,64 @@ namespace messmanagement
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
+            // 
+            // button14
+            // 
+            this.button14.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190114_messmanager_app;
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(848, 10);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(49, 44);
+            this.button14.TabIndex = 4;
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190103_messmanager_app;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(762, 10);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(49, 44);
+            this.button4.TabIndex = 3;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190053_messmanager_app;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(680, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(49, 44);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_185739_messmanager_app;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(598, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(49, 44);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190031_messmanager_app;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::messmanagement.Properties.Resources.Screenshot_2025_09_13_0037061;
+            this.button1.Location = new System.Drawing.Point(514, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(49, 44);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
