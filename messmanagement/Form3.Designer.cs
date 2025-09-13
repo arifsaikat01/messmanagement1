@@ -898,7 +898,7 @@ namespace messmanagement
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(201, 19);
+            this.label6.Location = new System.Drawing.Point(23, 139);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 5;
@@ -936,7 +936,7 @@ namespace messmanagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(201, 139);
+            this.label2.Location = new System.Drawing.Point(23, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 1;
@@ -945,7 +945,7 @@ namespace messmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 9);
+            this.label1.Location = new System.Drawing.Point(23, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
