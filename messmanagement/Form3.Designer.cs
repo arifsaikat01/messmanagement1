@@ -166,6 +166,7 @@ namespace messmanagement
             this.button4.Size = new System.Drawing.Size(49, 44);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -963,7 +964,7 @@ namespace messmanagement
             this.Controls.Add(this.centerpnl);
             this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);

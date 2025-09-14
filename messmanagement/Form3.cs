@@ -52,7 +52,9 @@ namespace messmanagement
 
         private void button14_Click(object sender, EventArgs e)
         {
-
+            Form7 form7 = new Form7();
+            form7.Show();
+            this.Hide();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -75,6 +77,16 @@ namespace messmanagement
 
         private void button3_Click(object sender, EventArgs e)
         {
-            }
+            Form5 form5 = new Form5();
+            form5.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
+            this.Hide();
+        }
     }
 }

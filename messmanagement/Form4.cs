@@ -24,5 +24,26 @@ namespace messmanagement
             this.Hide();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.Show();
+            this.Hide();
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace messmanagement
 {
-    partial class Form6
+    partial class Form7
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -48,27 +48,27 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(929, 68);
-            this.panel1.TabIndex = 7;
+            this.panel1.Size = new System.Drawing.Size(925, 68);
+            this.panel1.TabIndex = 8;
             // 
             // button7
             // 
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190017_messmanager_app;
             this.button7.Location = new System.Drawing.Point(605, 12);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 45);
             this.button7.TabIndex = 7;
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
-            this.button6.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190005_messmanager_app;
+            this.button6.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190103_messmanager1;
             this.button6.Location = new System.Drawing.Point(519, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 45);
             this.button6.TabIndex = 6;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -100,14 +100,14 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form6
+            // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(929, 450);
+            this.ClientSize = new System.Drawing.Size(925, 450);
             this.Controls.Add(this.panel1);
-            this.Name = "Form6";
-            this.Text = "Form6";
+            this.Name = "Form7";
+            this.Text = "Form7";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

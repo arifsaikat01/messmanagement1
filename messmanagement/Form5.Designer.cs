@@ -111,11 +111,12 @@
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(607, 12);
+            this.button5.Location = new System.Drawing.Point(603, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(62, 45);
             this.button5.TabIndex = 6;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -135,6 +136,7 @@
             this.button3.Size = new System.Drawing.Size(62, 45);
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -144,6 +146,7 @@
             this.button2.Size = new System.Drawing.Size(62, 45);
             this.button2.TabIndex = 3;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -153,6 +156,7 @@
             this.button1.Size = new System.Drawing.Size(62, 45);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form5
             // 
