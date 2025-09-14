@@ -141,7 +141,7 @@ namespace messmanagement
             this.toppnl.Dock = System.Windows.Forms.DockStyle.Top;
             this.toppnl.Location = new System.Drawing.Point(0, 0);
             this.toppnl.Name = "toppnl";
-            this.toppnl.Size = new System.Drawing.Size(1168, 62);
+            this.toppnl.Size = new System.Drawing.Size(1507, 62);
             this.toppnl.TabIndex = 0;
             // 
             // button14
@@ -221,7 +221,7 @@ namespace messmanagement
             this.leftpnl.Dock = System.Windows.Forms.DockStyle.Left;
             this.leftpnl.Location = new System.Drawing.Point(0, 62);
             this.leftpnl.Name = "leftpnl";
-            this.leftpnl.Size = new System.Drawing.Size(200, 394);
+            this.leftpnl.Size = new System.Drawing.Size(200, 483);
             this.leftpnl.TabIndex = 1;
             // 
             // button13
@@ -334,7 +334,7 @@ namespace messmanagement
             this.centerpnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.centerpnl.Location = new System.Drawing.Point(200, 62);
             this.centerpnl.Name = "centerpnl";
-            this.centerpnl.Size = new System.Drawing.Size(968, 394);
+            this.centerpnl.Size = new System.Drawing.Size(1307, 483);
             this.centerpnl.TabIndex = 2;
             // 
             // panel4
@@ -960,7 +960,7 @@ namespace messmanagement
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1168, 456);
+            this.ClientSize = new System.Drawing.Size(1507, 545);
             this.Controls.Add(this.centerpnl);
             this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
