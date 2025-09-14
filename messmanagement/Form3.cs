@@ -64,5 +64,17 @@ namespace messmanagement
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            }
     }
 }

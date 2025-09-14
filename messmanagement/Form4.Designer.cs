@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,6 +56,52 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(999, 68);
             this.panel1.TabIndex = 11;
+            // 
+            // button7
+            // 
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(655, 12);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(62, 45);
+            this.button7.TabIndex = 7;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.Location = new System.Drawing.Point(569, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(62, 45);
+            this.button6.TabIndex = 6;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(479, 12);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(62, 45);
+            this.button5.TabIndex = 2;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(388, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(62, 45);
+            this.button4.TabIndex = 1;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(298, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(62, 45);
+            this.button3.TabIndex = 0;
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -97,51 +143,6 @@
             this.label1.Size = new System.Drawing.Size(298, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "আপনার মেসের টুলেট পোস্ট করুন আমাদের ফেসবুক গ্রুপ এ";
-            // 
-            // button7
-            // 
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(655, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(62, 45);
-            this.button7.TabIndex = 7;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(569, 12);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(62, 45);
-            this.button6.TabIndex = 6;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(479, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(62, 45);
-            this.button5.TabIndex = 2;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(388, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(62, 45);
-            this.button4.TabIndex = 1;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(298, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 45);
-            this.button3.TabIndex = 0;
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
