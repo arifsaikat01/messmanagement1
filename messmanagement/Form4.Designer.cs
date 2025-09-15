@@ -36,8 +36,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.FbPagebutton = new System.Windows.Forms.Button();
+            this.FbGroupbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -116,27 +116,27 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Feed and To-Let";
             // 
-            // button2
+            // FbPagebutton
             // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(360, 401);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(295, 33);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Facebook Page";
-            this.button2.UseVisualStyleBackColor = false;
+            this.FbPagebutton.BackColor = System.Drawing.Color.Black;
+            this.FbPagebutton.ForeColor = System.Drawing.Color.Transparent;
+            this.FbPagebutton.Location = new System.Drawing.Point(360, 401);
+            this.FbPagebutton.Name = "FbPagebutton";
+            this.FbPagebutton.Size = new System.Drawing.Size(295, 33);
+            this.FbPagebutton.TabIndex = 8;
+            this.FbPagebutton.Text = "Facebook Page";
+            this.FbPagebutton.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // FbGroupbutton
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(360, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(295, 33);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Facebook Group";
-            this.button1.UseVisualStyleBackColor = false;
+            this.FbGroupbutton.BackColor = System.Drawing.Color.Black;
+            this.FbGroupbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.FbGroupbutton.Location = new System.Drawing.Point(360, 362);
+            this.FbGroupbutton.Name = "FbGroupbutton";
+            this.FbGroupbutton.Size = new System.Drawing.Size(295, 33);
+            this.FbGroupbutton.TabIndex = 7;
+            this.FbGroupbutton.Text = "Facebook Group";
+            this.FbGroupbutton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -166,8 +166,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.FbPagebutton);
+            this.Controls.Add(this.FbGroupbutton);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
             this.Text = "Form4";
@@ -188,8 +188,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button FbPagebutton;
+        private System.Windows.Forms.Button FbGroupbutton;
         private System.Windows.Forms.Label label1;
     }
 }

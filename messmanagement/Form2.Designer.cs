@@ -34,22 +34,23 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.EmailtextBox = new System.Windows.Forms.TextBox();
+            this.NametextBox = new System.Windows.Forms.TextBox();
+            this.PasswordtextBox = new System.Windows.Forms.TextBox();
+            this.Password2textBox = new System.Windows.Forms.TextBox();
+            this.Registerbutton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.LogInlinkLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 129);
+            this.label1.Location = new System.Drawing.Point(55, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 25);
+            this.label1.Size = new System.Drawing.Size(158, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Create Your Account";
             // 
@@ -57,127 +58,140 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(82, 163);
+            this.label2.Location = new System.Drawing.Point(55, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(316, 20);
+            this.label2.Size = new System.Drawing.Size(213, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Please fill in the form to create your account";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 205);
+            this.label3.Location = new System.Drawing.Point(55, 133);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 20);
+            this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Enter Your Email";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 271);
+            this.label4.Location = new System.Drawing.Point(55, 176);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 20);
+            this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Enter Your Name";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(82, 343);
+            this.label5.Location = new System.Drawing.Point(55, 223);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(159, 20);
+            this.label5.Size = new System.Drawing.Size(106, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Enter Your Password";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(82, 415);
+            this.label6.Location = new System.Drawing.Point(55, 270);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(166, 20);
+            this.label6.Size = new System.Drawing.Size(111, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Enter Password Again";
             // 
-            // textBox1
+            // EmailtextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 228);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(371, 26);
-            this.textBox1.TabIndex = 6;
+            this.EmailtextBox.Location = new System.Drawing.Point(57, 148);
+            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmailtextBox.Name = "EmailtextBox";
+            this.EmailtextBox.Size = new System.Drawing.Size(249, 20);
+            this.EmailtextBox.TabIndex = 6;
             // 
-            // textBox2
+            // NametextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(86, 294);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(371, 26);
-            this.textBox2.TabIndex = 7;
+            this.NametextBox.Location = new System.Drawing.Point(57, 191);
+            this.NametextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NametextBox.Name = "NametextBox";
+            this.NametextBox.Size = new System.Drawing.Size(249, 20);
+            this.NametextBox.TabIndex = 7;
             // 
-            // textBox3
+            // PasswordtextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(86, 366);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(371, 26);
-            this.textBox3.TabIndex = 8;
+            this.PasswordtextBox.Location = new System.Drawing.Point(57, 238);
+            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordtextBox.Name = "PasswordtextBox";
+            this.PasswordtextBox.Size = new System.Drawing.Size(249, 20);
+            this.PasswordtextBox.TabIndex = 8;
             // 
-            // textBox4
+            // Password2textBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(86, 438);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(371, 26);
-            this.textBox4.TabIndex = 9;
+            this.Password2textBox.Location = new System.Drawing.Point(57, 285);
+            this.Password2textBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Password2textBox.Name = "Password2textBox";
+            this.Password2textBox.Size = new System.Drawing.Size(249, 20);
+            this.Password2textBox.TabIndex = 9;
             // 
-            // button1
+            // Registerbutton
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(195, 481);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 38);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Register Now";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Registerbutton.BackColor = System.Drawing.Color.Red;
+            this.Registerbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Registerbutton.ForeColor = System.Drawing.Color.White;
+            this.Registerbutton.Location = new System.Drawing.Point(130, 313);
+            this.Registerbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Registerbutton.Name = "Registerbutton";
+            this.Registerbutton.Size = new System.Drawing.Size(92, 25);
+            this.Registerbutton.TabIndex = 10;
+            this.Registerbutton.Text = "Register Now";
+            this.Registerbutton.UseVisualStyleBackColor = false;
+            this.Registerbutton.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(252, 532);
+            this.label7.Location = new System.Drawing.Point(168, 346);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 20);
+            this.label7.Size = new System.Drawing.Size(16, 13);
             this.label7.TabIndex = 11;
             this.label7.Text = "or";
             // 
-            // linkLabel1
+            // LogInlinkLabel
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(132, 564);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(266, 20);
-            this.linkLabel1.TabIndex = 12;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Already have an account?Login Now";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.LogInlinkLabel.AutoSize = true;
+            this.LogInlinkLabel.Location = new System.Drawing.Point(88, 367);
+            this.LogInlinkLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LogInlinkLabel.Name = "LogInlinkLabel";
+            this.LogInlinkLabel.Size = new System.Drawing.Size(183, 13);
+            this.LogInlinkLabel.TabIndex = 12;
+            this.LogInlinkLabel.TabStop = true;
+            this.LogInlinkLabel.Text = "Already have an account?Login Now";
+            this.LogInlinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 674);
-            this.Controls.Add(this.linkLabel1);
+            this.ClientSize = new System.Drawing.Size(389, 438);
+            this.Controls.Add(this.LogInlinkLabel);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Registerbutton);
+            this.Controls.Add(this.Password2textBox);
+            this.Controls.Add(this.PasswordtextBox);
+            this.Controls.Add(this.NametextBox);
+            this.Controls.Add(this.EmailtextBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -193,12 +207,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox EmailtextBox;
+        private System.Windows.Forms.TextBox NametextBox;
+        private System.Windows.Forms.TextBox PasswordtextBox;
+        private System.Windows.Forms.TextBox Password2textBox;
+        private System.Windows.Forms.Button Registerbutton;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel LogInlinkLabel;
     }
 }
