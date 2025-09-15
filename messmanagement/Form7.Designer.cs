@@ -35,7 +35,12 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.ShowUserInforichTextBox = new System.Windows.Forms.RichTextBox();
+            this.UserNametextBox = new System.Windows.Forms.TextBox();
+            this.userInfolabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -101,16 +106,57 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // ShowUserInforichTextBox
+            // 
+            this.ShowUserInforichTextBox.Location = new System.Drawing.Point(277, 276);
+            this.ShowUserInforichTextBox.Name = "ShowUserInforichTextBox";
+            this.ShowUserInforichTextBox.Size = new System.Drawing.Size(379, 151);
+            this.ShowUserInforichTextBox.TabIndex = 16;
+            this.ShowUserInforichTextBox.Text = "";
+            // 
+            // UserNametextBox
+            // 
+            this.UserNametextBox.Location = new System.Drawing.Point(376, 205);
+            this.UserNametextBox.Name = "UserNametextBox";
+            this.UserNametextBox.Size = new System.Drawing.Size(162, 20);
+            this.UserNametextBox.TabIndex = 15;
+            // 
+            // userInfolabel
+            // 
+            this.userInfolabel.AutoSize = true;
+            this.userInfolabel.ForeColor = System.Drawing.Color.Red;
+            this.userInfolabel.Location = new System.Drawing.Point(274, 241);
+            this.userInfolabel.Name = "userInfolabel";
+            this.userInfolabel.Size = new System.Drawing.Size(50, 13);
+            this.userInfolabel.TabIndex = 14;
+            this.userInfolabel.Text = "Your Info";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_15_205621_messmanager_app;
+            this.pictureBox1.Location = new System.Drawing.Point(397, 74);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(123, 110);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(925, 450);
+            this.Controls.Add(this.ShowUserInforichTextBox);
+            this.Controls.Add(this.UserNametextBox);
+            this.Controls.Add(this.userInfolabel);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Name = "Form7";
             this.Text = "Form7";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -122,5 +168,9 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RichTextBox ShowUserInforichTextBox;
+        private System.Windows.Forms.TextBox UserNametextBox;
+        private System.Windows.Forms.Label userInfolabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

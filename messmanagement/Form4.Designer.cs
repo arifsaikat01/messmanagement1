@@ -96,6 +96,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonaddmem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+
             this.panelcontent = new System.Windows.Forms.Panel();
             this.panelc7 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
@@ -118,6 +119,7 @@
             this.defaultmealbl.SuspendLayout();
             this.panelcontent.SuspendLayout();
             this.panelc7.SuspendLayout();
+
             this.SuspendLayout();
             // 
             // toppnl
@@ -861,6 +863,7 @@
             this.panelc7.TabIndex = 15;
             this.panelc7.Visible = false;
             // 
+
             // label25
             // 
             this.label25.AutoSize = true;
@@ -925,9 +928,11 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 21);
             this.comboBox1.TabIndex = 6;
+
             // 
-            // button1
+            // FbGroupbutton
             // 
+
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.Location = new System.Drawing.Point(376, 373);
             this.button1.Name = "button1";
@@ -935,9 +940,11 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Sumbit";
             this.button1.UseVisualStyleBackColor = false;
+
             // 
             // checkBox1
             // 
+
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(308, 321);
             this.checkBox1.Name = "checkBox1";
@@ -945,15 +952,18 @@
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Add also as Deposit For this shopper?";
             this.checkBox1.UseVisualStyleBackColor = true;
+
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(1087, 588);
             this.Controls.Add(this.panelcontent);
             this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
+
             this.Name = "Form4";
             this.Text = "Form4";
             this.toppnl.ResumeLayout(false);
@@ -998,6 +1008,7 @@
         private System.Windows.Forms.Panel panelc1;
         private System.Windows.Forms.Button buttonaddmem;
         private System.Windows.Forms.Label label2;
+
         private System.Windows.Forms.Button buttoncreateadd;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -1057,5 +1068,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
+
     }
 }

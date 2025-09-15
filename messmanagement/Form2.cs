@@ -21,10 +21,10 @@ namespace messmanagement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text.Trim();
-            string name = textBox2.Text.Trim();
-            string password = textBox3.Text.Trim();
-            string confirmPassword = textBox4.Text.Trim();
+            string email = EmailtextBox.Text.Trim();
+            string name = NametextBox.Text.Trim();
+            string password = PasswordtextBox.Text.Trim();
+            string confirmPassword = Password2textBox.Text.Trim();
 
 
             if (string.IsNullOrWhiteSpace(email) || 
