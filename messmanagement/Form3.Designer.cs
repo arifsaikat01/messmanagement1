@@ -71,6 +71,7 @@ namespace messmanagement
             this.button5.Size = new System.Drawing.Size(62, 45);
             this.button5.TabIndex = 6;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button4
             // 
@@ -80,6 +81,7 @@ namespace messmanagement
             this.button4.Size = new System.Drawing.Size(62, 45);
             this.button4.TabIndex = 5;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -89,6 +91,7 @@ namespace messmanagement
             this.button3.Size = new System.Drawing.Size(62, 45);
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -98,6 +101,7 @@ namespace messmanagement
             this.button2.Size = new System.Drawing.Size(62, 45);
             this.button2.TabIndex = 3;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

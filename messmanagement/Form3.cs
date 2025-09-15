@@ -29,14 +29,14 @@ namespace messmanagement
         private void ShowDefaultPanels()
         {
             //leftpnl.Visible = true;
-            centerpnl.Visible = true;
+            //centerpnl.Visible = true;
             //panelAlt.Visible = false;
         }
 
         private void ShowAltPanel()
         {
             //leftpnl.Visible = false;
-            centerpnl.Visible = false;
+            //centerpnl.Visible = false;
             //panelAlt.Visible = true;
         }
 
@@ -81,6 +81,34 @@ namespace messmanagement
         {
             Form6 form6 = new Form6();
             form6.Show();
+            this.Hide();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.Show();
+            this.Hide();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
+            this.Hide();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
             this.Hide();
         }
     }
