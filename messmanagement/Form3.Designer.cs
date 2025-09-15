@@ -34,21 +34,6 @@ namespace messmanagement
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.toppnl = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.leftpnl = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.centerpnl = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label47 = new System.Windows.Forms.Label();
@@ -114,8 +99,12 @@ namespace messmanagement
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.toppnl.SuspendLayout();
-            this.leftpnl.SuspendLayout();
             this.centerpnl.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -144,177 +133,6 @@ namespace messmanagement
             this.toppnl.Size = new System.Drawing.Size(1507, 62);
             this.toppnl.TabIndex = 0;
             // 
-            // button14
-            // 
-            this.button14.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190114_messmanager_app;
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(848, 10);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(49, 44);
-            this.button14.TabIndex = 4;
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190103_messmanager_app;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(762, 10);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(49, 44);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190053_messmanager_app;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(680, 10);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 44);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_185739_messmanager_app;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(598, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(49, 44);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190031_messmanager_app;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::messmanagement.Properties.Resources.Screenshot_2025_09_13_0037061;
-            this.button1.Location = new System.Drawing.Point(514, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 44);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // leftpnl
-            // 
-            this.leftpnl.BackColor = System.Drawing.Color.Transparent;
-            this.leftpnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.leftpnl.Controls.Add(this.button13);
-            this.leftpnl.Controls.Add(this.button12);
-            this.leftpnl.Controls.Add(this.button11);
-            this.leftpnl.Controls.Add(this.button10);
-            this.leftpnl.Controls.Add(this.button9);
-            this.leftpnl.Controls.Add(this.button8);
-            this.leftpnl.Controls.Add(this.button7);
-            this.leftpnl.Controls.Add(this.button6);
-            this.leftpnl.Controls.Add(this.button5);
-            this.leftpnl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.leftpnl.Location = new System.Drawing.Point(0, 62);
-            this.leftpnl.Name = "leftpnl";
-            this.leftpnl.Size = new System.Drawing.Size(200, 483);
-            this.leftpnl.TabIndex = 1;
-            // 
-            // button13
-            // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(44, 449);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 11;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(44, 395);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 10;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(44, 344);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 4;
-            this.button11.Text = "Change Manager";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(44, 291);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "All Member";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(44, 241);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Add Cost";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(44, 188);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Add Meal";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(44, 136);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Add Deposit";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(44, 85);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Add Member";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(44, 38);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Home";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // centerpnl
             // 
             this.centerpnl.Controls.Add(this.panel4);
@@ -332,9 +150,9 @@ namespace messmanagement
             this.centerpnl.Controls.Add(this.mytotalmeal);
             this.centerpnl.Controls.Add(this.ourmessinfo);
             this.centerpnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.centerpnl.Location = new System.Drawing.Point(200, 62);
+            this.centerpnl.Location = new System.Drawing.Point(0, 62);
             this.centerpnl.Name = "centerpnl";
-            this.centerpnl.Size = new System.Drawing.Size(1307, 483);
+            this.centerpnl.Size = new System.Drawing.Size(1507, 483);
             this.centerpnl.TabIndex = 2;
             // 
             // panel4
@@ -347,7 +165,7 @@ namespace messmanagement
             this.panel4.Controls.Add(this.label52);
             this.panel4.Controls.Add(this.label53);
             this.panel4.Controls.Add(this.label54);
-            this.panel4.Location = new System.Drawing.Point(950, 318);
+            this.panel4.Location = new System.Drawing.Point(1043, 318);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(259, 156);
             this.panel4.TabIndex = 21;
@@ -434,7 +252,7 @@ namespace messmanagement
             this.panel3.Controls.Add(this.label44);
             this.panel3.Controls.Add(this.label45);
             this.panel3.Controls.Add(this.label46);
-            this.panel3.Location = new System.Drawing.Point(640, 318);
+            this.panel3.Location = new System.Drawing.Point(733, 318);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(259, 156);
             this.panel3.TabIndex = 20;
@@ -521,7 +339,7 @@ namespace messmanagement
             this.panel2.Controls.Add(this.label36);
             this.panel2.Controls.Add(this.label37);
             this.panel2.Controls.Add(this.label38);
-            this.panel2.Location = new System.Drawing.Point(338, 317);
+            this.panel2.Location = new System.Drawing.Point(431, 317);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(259, 156);
             this.panel2.TabIndex = 20;
@@ -608,7 +426,7 @@ namespace messmanagement
             this.panel1.Controls.Add(this.label25);
             this.panel1.Controls.Add(this.label24);
             this.panel1.Controls.Add(this.label23);
-            this.panel1.Location = new System.Drawing.Point(35, 317);
+            this.panel1.Location = new System.Drawing.Point(128, 317);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(259, 156);
             this.panel1.TabIndex = 11;
@@ -688,7 +506,7 @@ namespace messmanagement
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(597, 292);
+            this.label21.Location = new System.Drawing.Point(690, 292);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(41, 13);
             this.label21.TabIndex = 1;
@@ -697,7 +515,7 @@ namespace messmanagement
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(425, 179);
+            this.label20.Location = new System.Drawing.Point(518, 179);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(41, 13);
             this.label20.TabIndex = 10;
@@ -706,7 +524,7 @@ namespace messmanagement
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(425, 14);
+            this.label19.Location = new System.Drawing.Point(518, 14);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(41, 13);
             this.label19.TabIndex = 9;
@@ -715,7 +533,7 @@ namespace messmanagement
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(32, 14);
+            this.label18.Location = new System.Drawing.Point(125, 14);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 13);
             this.label18.TabIndex = 8;
@@ -725,7 +543,7 @@ namespace messmanagement
             // 
             this.mybazardate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mybazardate.Controls.Add(this.label22);
-            this.mybazardate.Location = new System.Drawing.Point(428, 206);
+            this.mybazardate.Location = new System.Drawing.Point(521, 206);
             this.mybazardate.Name = "mybazardate";
             this.mybazardate.Size = new System.Drawing.Size(867, 73);
             this.mybazardate.TabIndex = 3;
@@ -745,7 +563,7 @@ namespace messmanagement
             this.mybalance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mybalance.Controls.Add(this.label17);
             this.mybalance.Controls.Add(this.label16);
-            this.mybalance.Location = new System.Drawing.Point(1095, 59);
+            this.mybalance.Location = new System.Drawing.Point(1188, 59);
             this.mybalance.Name = "mybalance";
             this.mybalance.Size = new System.Drawing.Size(200, 100);
             this.mybalance.TabIndex = 2;
@@ -774,7 +592,7 @@ namespace messmanagement
             this.mycost.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mycost.Controls.Add(this.label15);
             this.mycost.Controls.Add(this.label14);
-            this.mycost.Location = new System.Drawing.Point(870, 59);
+            this.mycost.Location = new System.Drawing.Point(963, 59);
             this.mycost.Name = "mycost";
             this.mycost.Size = new System.Drawing.Size(200, 100);
             this.mycost.TabIndex = 2;
@@ -803,7 +621,7 @@ namespace messmanagement
             this.mydeposit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mydeposit.Controls.Add(this.label13);
             this.mydeposit.Controls.Add(this.label12);
-            this.mydeposit.Location = new System.Drawing.Point(650, 59);
+            this.mydeposit.Location = new System.Drawing.Point(743, 59);
             this.mydeposit.Name = "mydeposit";
             this.mydeposit.Size = new System.Drawing.Size(200, 100);
             this.mydeposit.TabIndex = 2;
@@ -832,7 +650,7 @@ namespace messmanagement
             this.mytotalmeal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mytotalmeal.Controls.Add(this.label11);
             this.mytotalmeal.Controls.Add(this.label10);
-            this.mytotalmeal.Location = new System.Drawing.Point(428, 59);
+            this.mytotalmeal.Location = new System.Drawing.Point(521, 59);
             this.mytotalmeal.Name = "mytotalmeal";
             this.mytotalmeal.Size = new System.Drawing.Size(200, 100);
             this.mytotalmeal.TabIndex = 1;
@@ -867,7 +685,7 @@ namespace messmanagement
             this.ourmessinfo.Controls.Add(this.label3);
             this.ourmessinfo.Controls.Add(this.label2);
             this.ourmessinfo.Controls.Add(this.label1);
-            this.ourmessinfo.Location = new System.Drawing.Point(35, 39);
+            this.ourmessinfo.Location = new System.Drawing.Point(128, 39);
             this.ourmessinfo.Name = "ourmessinfo";
             this.ourmessinfo.Size = new System.Drawing.Size(359, 240);
             this.ourmessinfo.TabIndex = 0;
@@ -955,6 +773,67 @@ namespace messmanagement
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
+            // button14
+            // 
+            this.button14.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190114_messmanager_app;
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(848, 10);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(49, 44);
+            this.button14.TabIndex = 4;
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190103_messmanager_app;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(762, 10);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(49, 44);
+            this.button4.TabIndex = 3;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190053_messmanager_app;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(680, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(49, 44);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_185739_messmanager_app;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(598, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(49, 44);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190031_messmanager_app;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::messmanagement.Properties.Resources.Screenshot_2025_09_13_0037061;
+            this.button1.Location = new System.Drawing.Point(514, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(49, 44);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -962,14 +841,12 @@ namespace messmanagement
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1507, 545);
             this.Controls.Add(this.centerpnl);
-            this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.toppnl.ResumeLayout(false);
-            this.leftpnl.ResumeLayout(false);
             this.centerpnl.ResumeLayout(false);
             this.centerpnl.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -999,27 +876,17 @@ namespace messmanagement
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel toppnl;
-        private System.Windows.Forms.Panel leftpnl;
         private System.Windows.Forms.Panel centerpnl;
         private System.Windows.Forms.Panel ourmessinfo;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel mybazardate;
         private System.Windows.Forms.Panel mybalance;
         private System.Windows.Forms.Panel mycost;
         private System.Windows.Forms.Panel mydeposit;
         private System.Windows.Forms.Panel mytotalmeal;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;

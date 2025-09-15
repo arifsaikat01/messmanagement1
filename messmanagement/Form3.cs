@@ -33,14 +33,14 @@ namespace messmanagement
         }
         private void ShowDefaultPanels()
         {
-            leftpnl.Visible = true;
+            //leftpnl.Visible = true;
             centerpnl.Visible = true;
             //panelAlt.Visible = false;
         }
 
         private void ShowAltPanel()
         {
-            leftpnl.Visible = false;
+            //leftpnl.Visible = false;
             centerpnl.Visible = false;
             //panelAlt.Visible = true;
         }

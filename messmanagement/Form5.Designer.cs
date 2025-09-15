@@ -40,15 +40,21 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(426, 237);
+            this.label3.Location = new System.Drawing.Point(189, 305);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 11;
@@ -58,7 +64,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Black;
             this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(358, 200);
+            this.button6.Location = new System.Drawing.Point(121, 268);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(168, 34);
             this.button6.TabIndex = 10;
@@ -69,7 +75,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(388, 184);
+            this.label2.Location = new System.Drawing.Point(151, 252);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 13);
             this.label2.TabIndex = 9;
@@ -79,7 +85,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(415, 171);
+            this.label1.Location = new System.Drawing.Point(178, 239);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 8;
@@ -88,7 +94,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_193526_messmanager_app;
-            this.pictureBox1.Location = new System.Drawing.Point(403, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(166, 165);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(77, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -97,6 +103,7 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -158,11 +165,68 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_183405_messmanager_app;
+            this.pictureBox2.InitialImage = null;
+            this.pictureBox2.Location = new System.Drawing.Point(493, 91);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(182, 145);
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(546, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Feed and To-Let";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Black;
+            this.button7.ForeColor = System.Drawing.Color.Transparent;
+            this.button7.Location = new System.Drawing.Point(440, 362);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(295, 33);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "Facebook Page";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Black;
+            this.button8.ForeColor = System.Drawing.Color.Transparent;
+            this.button8.Location = new System.Drawing.Point(440, 323);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(295, 33);
+            this.button8.TabIndex = 13;
+            this.button8.Text = "Facebook Group";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(437, 291);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(298, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "আপনার মেসের টুলেট পোস্ট করুন আমাদের ফেসবুক গ্রুপ এ";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(870, 450);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label2);
@@ -173,6 +237,7 @@
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,5 +256,10 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label5;
     }
 }
