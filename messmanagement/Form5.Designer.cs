@@ -29,71 +29,60 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
-            this.label3 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Inboxbutton = new System.Windows.Forms.Button();
+            this.promlemlabel = new System.Windows.Forms.Label();
+            this.supportlabel = new System.Windows.Forms.Label();
+            this.logopictureBox = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logopictureBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label3
+            // Inboxbutton
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(426, 237);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "FAQ";
+            this.Inboxbutton.BackColor = System.Drawing.Color.Black;
+            this.Inboxbutton.ForeColor = System.Drawing.Color.Transparent;
+            this.Inboxbutton.Location = new System.Drawing.Point(358, 200);
+            this.Inboxbutton.Name = "Inboxbutton";
+            this.Inboxbutton.Size = new System.Drawing.Size(168, 34);
+            this.Inboxbutton.TabIndex = 10;
+            this.Inboxbutton.Text = "Inbox Our Facebook Page";
+            this.Inboxbutton.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // promlemlabel
             // 
-            this.button6.BackColor = System.Drawing.Color.Black;
-            this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(358, 200);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(168, 34);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Inbox Our Facebook Page";
-            this.button6.UseVisualStyleBackColor = false;
+            this.promlemlabel.AutoSize = true;
+            this.promlemlabel.ForeColor = System.Drawing.Color.Black;
+            this.promlemlabel.Location = new System.Drawing.Point(388, 184);
+            this.promlemlabel.Name = "promlemlabel";
+            this.promlemlabel.Size = new System.Drawing.Size(107, 13);
+            this.promlemlabel.TabIndex = 9;
+            this.promlemlabel.Text = "Facing Any Problem?";
             // 
-            // label2
+            // supportlabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(388, 184);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Facing Any Problem?";
+            this.supportlabel.AutoSize = true;
+            this.supportlabel.ForeColor = System.Drawing.Color.Red;
+            this.supportlabel.Location = new System.Drawing.Point(415, 171);
+            this.supportlabel.Name = "supportlabel";
+            this.supportlabel.Size = new System.Drawing.Size(44, 13);
+            this.supportlabel.TabIndex = 8;
+            this.supportlabel.Text = "Support";
             // 
-            // label1
+            // logopictureBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(415, 171);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Support?";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_193526_messmanager_app;
-            this.pictureBox1.Location = new System.Drawing.Point(403, 97);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(77, 71);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.logopictureBox.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_193526_messmanager_app;
+            this.logopictureBox.Location = new System.Drawing.Point(403, 97);
+            this.logopictureBox.Name = "logopictureBox";
+            this.logopictureBox.Size = new System.Drawing.Size(77, 71);
+            this.logopictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logopictureBox.TabIndex = 7;
+            this.logopictureBox.TabStop = false;
             // 
             // panel1
             // 
@@ -163,15 +152,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(870, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Inboxbutton);
+            this.Controls.Add(this.promlemlabel);
+            this.Controls.Add(this.supportlabel);
+            this.Controls.Add(this.logopictureBox);
             this.Controls.Add(this.panel1);
             this.Name = "Form5";
             this.Text = "Form5";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logopictureBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -179,12 +167,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Inboxbutton;
+        private System.Windows.Forms.Label promlemlabel;
+        private System.Windows.Forms.Label supportlabel;
+        private System.Windows.Forms.PictureBox logopictureBox;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
