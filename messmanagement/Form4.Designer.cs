@@ -141,11 +141,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(357, 330);
+            this.label1.Location = new System.Drawing.Point(385, 325);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(298, 13);
+            this.label1.Size = new System.Drawing.Size(229, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "আপনার মেসের টুলেট পোস্ট করুন আমাদের ফেসবুক গ্রুপ এ";
+            this.label1.Text = "Post your mess\'s To-let on our Facebook group";
             // 
             // pictureBox1
             // 

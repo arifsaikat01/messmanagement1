@@ -176,5 +176,8 @@
   <ItemGroup>
     <None Include="Resources\Opera Snapshot_2025-09-13_190017_messmanager.app.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Opera Snapshot_2025-09-15_205621_messmanager.app1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
