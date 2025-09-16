@@ -39,7 +39,7 @@ namespace messmanagement
             panelc6.Visible = false;
             panelc7.Visible = false;
             panel4addmember.Visible = false;
-            //panel4createaddmem.Visible = false;
+            panel4createaddmem.Visible = false;
             panelc1.BringToFront();
         }
 
@@ -204,10 +204,29 @@ namespace messmanagement
             
             panel4addmember.BringToFront();
         }
-
+        private void back4addmem_Click(object sender, EventArgs e)
+        {
+            ShowDefaultPanels();
+        }
         private void buttoncreateadd_Click(object sender, EventArgs e)
         {
+            leftpnl.Visible = true;
+            toppnl.Visible = true;
 
+            panelc1.Visible = true;     // container stays visible
+            panelc2.Visible = true;
+            panelc3.Visible = true;
+            panelc4.Visible = true;
+            panelc5.Visible = true;
+            panelc6.Visible = true;
+            panelc7.Visible = true;
+            panel4addmember.Visible = true;
+            panel4createaddmem.Visible = true;  
+            panel4createaddmem.BringToFront();
+        }
+        private void back4createadd_Click(object sender, EventArgs e)
+        {
+            ShowDefaultPanels();
         }
 
         private void dateTimePicker4diposit_ValueChanged(object sender, EventArgs e)
@@ -339,10 +358,29 @@ namespace messmanagement
         {
 
         }
-
-        private void back4addmem_Click(object sender, EventArgs e)
+        private void textBox4createadd_TextChanged(object sender, EventArgs e)
         {
-            ShowDefaultPanels();
+
+        }
+
+        private void email4createadd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4createadd_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4createaddmem_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void submit4createadd_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
