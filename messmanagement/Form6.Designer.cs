@@ -55,7 +55,7 @@
             // button7
             // 
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(605, 12);
+            this.button7.Location = new System.Drawing.Point(694, 11);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 45);
             this.button7.TabIndex = 7;
@@ -65,7 +65,7 @@
             // button6
             // 
             this.button6.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_190005_messmanager_app;
-            this.button6.Location = new System.Drawing.Point(519, 12);
+            this.button6.Location = new System.Drawing.Point(608, 11);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 45);
             this.button6.TabIndex = 6;
@@ -74,7 +74,7 @@
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(429, 12);
+            this.button5.Location = new System.Drawing.Point(518, 11);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(62, 45);
             this.button5.TabIndex = 2;
@@ -84,7 +84,7 @@
             // button4
             // 
             this.button4.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_185739_messmanager_app;
-            this.button4.Location = new System.Drawing.Point(338, 12);
+            this.button4.Location = new System.Drawing.Point(427, 11);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(62, 45);
             this.button4.TabIndex = 1;
@@ -94,7 +94,7 @@
             // button3
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(248, 12);
+            this.button3.Location = new System.Drawing.Point(337, 11);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(62, 45);
             this.button3.TabIndex = 0;
