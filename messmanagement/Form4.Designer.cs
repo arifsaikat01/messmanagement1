@@ -52,11 +52,11 @@
             this.panelc5 = new System.Windows.Forms.Panel();
             this.panelc6 = new System.Windows.Forms.Panel();
             this.panelc7 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkBox4mealcost = new System.Windows.Forms.CheckBox();
+            this.submit4mealcost = new System.Windows.Forms.Button();
+            this.comboBox4selectshoper = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox4mealcost = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.dateTimePicker4mealcost = new System.Windows.Forms.DateTimePicker();
@@ -107,6 +107,16 @@
             this.buttonaddmem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panelcontent = new System.Windows.Forms.Panel();
+            this.panel4addmember = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBox4addmem = new System.Windows.Forms.TextBox();
+            this.radioButton4addman = new System.Windows.Forms.RadioButton();
+            this.radioButton4addmem = new System.Windows.Forms.RadioButton();
+            this.label32 = new System.Windows.Forms.Label();
+            this.submit4addmem = new System.Windows.Forms.Button();
+            this.back4addmem = new System.Windows.Forms.Button();
             this.toppnl.SuspendLayout();
             this.leftpnl.SuspendLayout();
             this.panelc1.SuspendLayout();
@@ -118,6 +128,7 @@
             this.panelc7.SuspendLayout();
             this.defaultmealbl.SuspendLayout();
             this.panelcontent.SuspendLayout();
+            this.panel4addmember.SuspendLayout();
             this.SuspendLayout();
             // 
             // toppnl
@@ -399,11 +410,12 @@
             // 
             // panelc7
             // 
-            this.panelc7.Controls.Add(this.checkBox1);
-            this.panelc7.Controls.Add(this.button1);
-            this.panelc7.Controls.Add(this.comboBox1);
+            this.panelc7.Controls.Add(this.panel4addmember);
+            this.panelc7.Controls.Add(this.checkBox4mealcost);
+            this.panelc7.Controls.Add(this.submit4mealcost);
+            this.panelc7.Controls.Add(this.comboBox4selectshoper);
             this.panelc7.Controls.Add(this.label28);
-            this.panelc7.Controls.Add(this.textBox1);
+            this.panelc7.Controls.Add(this.textBox4mealcost);
             this.panelc7.Controls.Add(this.label27);
             this.panelc7.Controls.Add(this.label26);
             this.panelc7.Controls.Add(this.dateTimePicker4mealcost);
@@ -415,33 +427,36 @@
             this.panelc7.TabIndex = 15;
             this.panelc7.Visible = false;
             // 
-            // checkBox1
+            // checkBox4mealcost
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(308, 321);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(204, 17);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Add also as Deposit For this shopper?";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox4mealcost.AutoSize = true;
+            this.checkBox4mealcost.Location = new System.Drawing.Point(308, 321);
+            this.checkBox4mealcost.Name = "checkBox4mealcost";
+            this.checkBox4mealcost.Size = new System.Drawing.Size(204, 17);
+            this.checkBox4mealcost.TabIndex = 8;
+            this.checkBox4mealcost.Text = "Add also as Deposit For this shopper?";
+            this.checkBox4mealcost.UseVisualStyleBackColor = true;
+            this.checkBox4mealcost.CheckedChanged += new System.EventHandler(this.checkBox4mealcost_CheckedChanged);
             // 
-            // button1
+            // submit4mealcost
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(376, 373);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 31);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Sumbit";
-            this.button1.UseVisualStyleBackColor = false;
+            this.submit4mealcost.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.submit4mealcost.Location = new System.Drawing.Point(376, 373);
+            this.submit4mealcost.Name = "submit4mealcost";
+            this.submit4mealcost.Size = new System.Drawing.Size(88, 31);
+            this.submit4mealcost.TabIndex = 7;
+            this.submit4mealcost.Text = "Sumbit";
+            this.submit4mealcost.UseVisualStyleBackColor = false;
+            this.submit4mealcost.Click += new System.EventHandler(this.submit4mealcost_Click);
             // 
-            // comboBox1
+            // comboBox4selectshoper
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(307, 289);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 6;
+            this.comboBox4selectshoper.FormattingEnabled = true;
+            this.comboBox4selectshoper.Location = new System.Drawing.Point(307, 289);
+            this.comboBox4selectshoper.Name = "comboBox4selectshoper";
+            this.comboBox4selectshoper.Size = new System.Drawing.Size(200, 21);
+            this.comboBox4selectshoper.TabIndex = 6;
+            this.comboBox4selectshoper.SelectedIndexChanged += new System.EventHandler(this.comboBox4selectshoper_SelectedIndexChanged);
             // 
             // label28
             // 
@@ -453,12 +468,13 @@
             this.label28.TabIndex = 5;
             this.label28.Text = "Select  Shopper";
             // 
-            // textBox1
+            // textBox4mealcost
             // 
-            this.textBox1.Location = new System.Drawing.Point(307, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 4;
+            this.textBox4mealcost.Location = new System.Drawing.Point(307, 204);
+            this.textBox4mealcost.Name = "textBox4mealcost";
+            this.textBox4mealcost.Size = new System.Drawing.Size(200, 20);
+            this.textBox4mealcost.TabIndex = 4;
+            this.textBox4mealcost.TextChanged += new System.EventHandler(this.textBox4mealcost_TextChanged);
             // 
             // label27
             // 
@@ -486,6 +502,7 @@
             this.dateTimePicker4mealcost.Name = "dateTimePicker4mealcost";
             this.dateTimePicker4mealcost.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker4mealcost.TabIndex = 1;
+            this.dateTimePicker4mealcost.ValueChanged += new System.EventHandler(this.dateTimePicker4mealcost_ValueChanged);
             // 
             // label25
             // 
@@ -946,6 +963,121 @@
             this.panelcontent.Size = new System.Drawing.Size(887, 520);
             this.panelcontent.TabIndex = 14;
             // 
+            // panel4addmember
+            // 
+            this.panel4addmember.Controls.Add(this.back4addmem);
+            this.panel4addmember.Controls.Add(this.submit4addmem);
+            this.panel4addmember.Controls.Add(this.label32);
+            this.panel4addmember.Controls.Add(this.radioButton4addmem);
+            this.panel4addmember.Controls.Add(this.radioButton4addman);
+            this.panel4addmember.Controls.Add(this.textBox4addmem);
+            this.panel4addmember.Controls.Add(this.label31);
+            this.panel4addmember.Controls.Add(this.label30);
+            this.panel4addmember.Controls.Add(this.label29);
+            this.panel4addmember.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4addmember.Location = new System.Drawing.Point(0, 0);
+            this.panel4addmember.Name = "panel4addmember";
+            this.panel4addmember.Size = new System.Drawing.Size(887, 520);
+            this.panel4addmember.TabIndex = 9;
+            this.panel4addmember.Visible = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label29.Location = new System.Drawing.Point(321, 38);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(186, 24);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Add Mess Member";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(276, 110);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(146, 16);
+            this.label30.TabIndex = 1;
+            this.label30.Text = "Member email address";
+            // 
+            // label31
+            // 
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label31.Location = new System.Drawing.Point(277, 185);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(360, 55);
+            this.label31.TabIndex = 2;
+            this.label31.Text = resources.GetString("label31.Text");
+            // 
+            // textBox4addmem
+            // 
+            this.textBox4addmem.Location = new System.Drawing.Point(280, 148);
+            this.textBox4addmem.Name = "textBox4addmem";
+            this.textBox4addmem.Size = new System.Drawing.Size(205, 20);
+            this.textBox4addmem.TabIndex = 3;
+            this.textBox4addmem.TextChanged += new System.EventHandler(this.textBox4addmem_TextChanged);
+            // 
+            // radioButton4addman
+            // 
+            this.radioButton4addman.AutoSize = true;
+            this.radioButton4addman.Location = new System.Drawing.Point(280, 314);
+            this.radioButton4addman.Name = "radioButton4addman";
+            this.radioButton4addman.Size = new System.Drawing.Size(67, 17);
+            this.radioButton4addman.TabIndex = 4;
+            this.radioButton4addman.TabStop = true;
+            this.radioButton4addman.Text = "Manager";
+            this.radioButton4addman.UseVisualStyleBackColor = true;
+            this.radioButton4addman.CheckedChanged += new System.EventHandler(this.radioButton4addman_CheckedChanged);
+            // 
+            // radioButton4addmem
+            // 
+            this.radioButton4addmem.AutoSize = true;
+            this.radioButton4addmem.Location = new System.Drawing.Point(281, 344);
+            this.radioButton4addmem.Name = "radioButton4addmem";
+            this.radioButton4addmem.Size = new System.Drawing.Size(63, 17);
+            this.radioButton4addmem.TabIndex = 5;
+            this.radioButton4addmem.TabStop = true;
+            this.radioButton4addmem.Text = "Member";
+            this.radioButton4addmem.UseVisualStyleBackColor = true;
+            this.radioButton4addmem.CheckedChanged += new System.EventHandler(this.radioButton4addmem_CheckedChanged);
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(277, 280);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(137, 16);
+            this.label32.TabIndex = 6;
+            this.label32.Text = "Select Member Role?";
+            // 
+            // submit4addmem
+            // 
+            this.submit4addmem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.submit4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submit4addmem.Location = new System.Drawing.Point(281, 408);
+            this.submit4addmem.Name = "submit4addmem";
+            this.submit4addmem.Size = new System.Drawing.Size(204, 23);
+            this.submit4addmem.TabIndex = 16;
+            this.submit4addmem.Text = "Sumbit";
+            this.submit4addmem.UseVisualStyleBackColor = false;
+            this.submit4addmem.Click += new System.EventHandler(this.submit4addmem_Click);
+            // 
+            // back4addmem
+            // 
+            this.back4addmem.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.back4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back4addmem.Location = new System.Drawing.Point(357, 457);
+            this.back4addmem.Name = "back4addmem";
+            this.back4addmem.Size = new System.Drawing.Size(75, 23);
+            this.back4addmem.TabIndex = 18;
+            this.back4addmem.Text = "Back";
+            this.back4addmem.UseVisualStyleBackColor = false;
+            this.back4addmem.Click += new System.EventHandler(this.back4addmem_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -973,6 +1105,8 @@
             this.defaultmealbl.ResumeLayout(false);
             this.defaultmealbl.PerformLayout();
             this.panelcontent.ResumeLayout(false);
+            this.panel4addmember.ResumeLayout(false);
+            this.panel4addmember.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1050,14 +1184,23 @@
         private System.Windows.Forms.TextBox breakfastmeal;
         private System.Windows.Forms.Panel panelc7;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox4mealcost;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.DateTimePicker dateTimePicker4mealcost;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-
+        private System.Windows.Forms.CheckBox checkBox4mealcost;
+        private System.Windows.Forms.Button submit4mealcost;
+        private System.Windows.Forms.ComboBox comboBox4selectshoper;
+        private System.Windows.Forms.Panel panel4addmember;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Button submit4addmem;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.RadioButton radioButton4addmem;
+        private System.Windows.Forms.RadioButton radioButton4addman;
+        private System.Windows.Forms.TextBox textBox4addmem;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button back4addmem;
     }
 }

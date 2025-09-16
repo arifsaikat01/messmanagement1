@@ -38,6 +38,8 @@ namespace messmanagement
             panelc5.Visible = false;
             panelc6.Visible = false;
             panelc7.Visible = false;
+            panel4addmember.Visible = false;
+            //panel4createaddmem.Visible = false;
             panelc1.BringToFront();
         }
 
@@ -188,7 +190,19 @@ namespace messmanagement
         
         private void buttonaddmem_Click(object sender, EventArgs e)
         {
+            leftpnl.Visible = true;
+            toppnl.Visible = true;
 
+            panelc1.Visible = true;     // container stays visible
+            panelc2.Visible = true;
+            panelc3.Visible = true;
+            panelc4.Visible = true;
+            panelc5.Visible = true;
+            panelc6.Visible = true;
+            panelc7.Visible = true;
+            panel4addmember.Visible = true;
+            
+            panel4addmember.BringToFront();
         }
 
         private void buttoncreateadd_Click(object sender, EventArgs e)
@@ -281,7 +295,55 @@ namespace messmanagement
 
         }
 
-       
+        private void dateTimePicker4mealcost_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4mealcost_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox4selectshoper_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox4mealcost_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void submit4mealcost_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4addmem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4addman_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4addmem_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void submit4addmem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void back4addmem_Click(object sender, EventArgs e)
+        {
+            ShowDefaultPanels();
+        }
     }
 }
 

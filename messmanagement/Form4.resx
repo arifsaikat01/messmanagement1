@@ -193,4 +193,7 @@
         C02MhAgJERIiZibUdS8ktYJG/rWguAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>If any member of your mess has created an account through the app, enter that account’s email here to add them to the mess. If they have already created a test mess, ask them to delete it. For any assistance, please contact our Facebook page.</value>
+  </data>
 </root>
