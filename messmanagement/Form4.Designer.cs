@@ -53,6 +53,19 @@
             this.panelc6 = new System.Windows.Forms.Panel();
             this.panelc7 = new System.Windows.Forms.Panel();
             this.panel4addmember = new System.Windows.Forms.Panel();
+            this.panel4createaddmem = new System.Windows.Forms.Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox4createadd = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.back4createadd = new System.Windows.Forms.Button();
+            this.submit4createadd = new System.Windows.Forms.Button();
+            this.label33 = new System.Windows.Forms.Label();
+            this.radioButton4createaddmem = new System.Windows.Forms.RadioButton();
+            this.radioButton4createadd = new System.Windows.Forms.RadioButton();
+            this.email4createadd = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
             this.back4addmem = new System.Windows.Forms.Button();
             this.submit4addmem = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
@@ -117,19 +130,6 @@
             this.buttonaddmem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panelcontent = new System.Windows.Forms.Panel();
-            this.panel4createaddmem = new System.Windows.Forms.Panel();
-            this.back4createadd = new System.Windows.Forms.Button();
-            this.submit4createadd = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.radioButton4createaddmem = new System.Windows.Forms.RadioButton();
-            this.radioButton4createadd = new System.Windows.Forms.RadioButton();
-            this.email4createadd = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.textBox4createadd = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
             this.toppnl.SuspendLayout();
             this.leftpnl.SuspendLayout();
             this.panelc1.SuspendLayout();
@@ -140,9 +140,9 @@
             this.panelc6.SuspendLayout();
             this.panelc7.SuspendLayout();
             this.panel4addmember.SuspendLayout();
+            this.panel4createaddmem.SuspendLayout();
             this.defaultmealbl.SuspendLayout();
             this.panelcontent.SuspendLayout();
-            this.panel4createaddmem.SuspendLayout();
             this.SuspendLayout();
             // 
             // toppnl
@@ -156,7 +156,7 @@
             this.toppnl.Dock = System.Windows.Forms.DockStyle.Top;
             this.toppnl.Location = new System.Drawing.Point(0, 0);
             this.toppnl.Name = "toppnl";
-            this.toppnl.Size = new System.Drawing.Size(1087, 68);
+            this.toppnl.Size = new System.Drawing.Size(1111, 68);
             this.toppnl.TabIndex = 11;
             // 
             // button7
@@ -224,7 +224,7 @@
             this.leftpnl.Dock = System.Windows.Forms.DockStyle.Left;
             this.leftpnl.Location = new System.Drawing.Point(0, 68);
             this.leftpnl.Name = "leftpnl";
-            this.leftpnl.Size = new System.Drawing.Size(200, 520);
+            this.leftpnl.Size = new System.Drawing.Size(200, 527);
             this.leftpnl.TabIndex = 12;
             // 
             // label1
@@ -336,7 +336,7 @@
             this.panelc1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc1.Location = new System.Drawing.Point(0, 0);
             this.panelc1.Name = "panelc1";
-            this.panelc1.Size = new System.Drawing.Size(887, 520);
+            this.panelc1.Size = new System.Drawing.Size(911, 527);
             this.panelc1.TabIndex = 13;
             this.panelc1.Visible = false;
             // 
@@ -355,7 +355,7 @@
             this.panelc2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc2.Location = new System.Drawing.Point(0, 0);
             this.panelc2.Name = "panelc2";
-            this.panelc2.Size = new System.Drawing.Size(887, 520);
+            this.panelc2.Size = new System.Drawing.Size(911, 527);
             this.panelc2.TabIndex = 5;
             // 
             // panelc3
@@ -369,7 +369,7 @@
             this.panelc3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc3.Location = new System.Drawing.Point(0, 0);
             this.panelc3.Name = "panelc3";
-            this.panelc3.Size = new System.Drawing.Size(887, 520);
+            this.panelc3.Size = new System.Drawing.Size(911, 527);
             this.panelc3.TabIndex = 16;
             // 
             // panelc4
@@ -383,7 +383,7 @@
             this.panelc4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc4.Location = new System.Drawing.Point(0, 0);
             this.panelc4.Name = "panelc4";
-            this.panelc4.Size = new System.Drawing.Size(887, 520);
+            this.panelc4.Size = new System.Drawing.Size(911, 527);
             this.panelc4.TabIndex = 14;
             this.panelc4.Visible = false;
             // 
@@ -396,7 +396,7 @@
             this.panelc5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc5.Location = new System.Drawing.Point(0, 0);
             this.panelc5.Name = "panelc5";
-            this.panelc5.Size = new System.Drawing.Size(887, 520);
+            this.panelc5.Size = new System.Drawing.Size(911, 527);
             this.panelc5.TabIndex = 7;
             this.panelc5.Visible = false;
             // 
@@ -418,7 +418,7 @@
             this.panelc6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc6.Location = new System.Drawing.Point(0, 0);
             this.panelc6.Name = "panelc6";
-            this.panelc6.Size = new System.Drawing.Size(887, 520);
+            this.panelc6.Size = new System.Drawing.Size(911, 527);
             this.panelc6.TabIndex = 19;
             this.panelc6.Visible = false;
             // 
@@ -437,7 +437,7 @@
             this.panelc7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelc7.Location = new System.Drawing.Point(0, 0);
             this.panelc7.Name = "panelc7";
-            this.panelc7.Size = new System.Drawing.Size(887, 520);
+            this.panelc7.Size = new System.Drawing.Size(911, 527);
             this.panelc7.TabIndex = 15;
             this.panelc7.Visible = false;
             // 
@@ -456,9 +456,155 @@
             this.panel4addmember.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4addmember.Location = new System.Drawing.Point(0, 0);
             this.panel4addmember.Name = "panel4addmember";
-            this.panel4addmember.Size = new System.Drawing.Size(887, 520);
+            this.panel4addmember.Size = new System.Drawing.Size(911, 527);
             this.panel4addmember.TabIndex = 9;
             this.panel4addmember.Visible = false;
+            // 
+            // panel4createaddmem
+            // 
+            this.panel4createaddmem.Controls.Add(this.label38);
+            this.panel4createaddmem.Controls.Add(this.textBox4createadd);
+            this.panel4createaddmem.Controls.Add(this.label37);
+            this.panel4createaddmem.Controls.Add(this.label34);
+            this.panel4createaddmem.Controls.Add(this.back4createadd);
+            this.panel4createaddmem.Controls.Add(this.submit4createadd);
+            this.panel4createaddmem.Controls.Add(this.label33);
+            this.panel4createaddmem.Controls.Add(this.radioButton4createaddmem);
+            this.panel4createaddmem.Controls.Add(this.radioButton4createadd);
+            this.panel4createaddmem.Controls.Add(this.email4createadd);
+            this.panel4createaddmem.Controls.Add(this.label35);
+            this.panel4createaddmem.Controls.Add(this.label36);
+            this.panel4createaddmem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4createaddmem.Location = new System.Drawing.Point(0, 0);
+            this.panel4createaddmem.Name = "panel4createaddmem";
+            this.panel4createaddmem.Size = new System.Drawing.Size(911, 527);
+            this.panel4createaddmem.TabIndex = 19;
+            this.panel4createaddmem.Visible = false;
+            // 
+            // label38
+            // 
+            this.label38.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label38.Location = new System.Drawing.Point(262, 363);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(330, 32);
+            this.label38.TabIndex = 31;
+            this.label38.Text = "New member\'s default password is: 123456 , use this password for log In to his ac" +
+    "count, then change default password ";
+            // 
+            // textBox4createadd
+            // 
+            this.textBox4createadd.Location = new System.Drawing.Point(262, 110);
+            this.textBox4createadd.Name = "textBox4createadd";
+            this.textBox4createadd.Size = new System.Drawing.Size(205, 20);
+            this.textBox4createadd.TabIndex = 30;
+            this.textBox4createadd.TextChanged += new System.EventHandler(this.textBox4createadd_TextChanged);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(259, 73);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(113, 16);
+            this.label37.TabIndex = 29;
+            this.label37.Text = "Member full name";
+            // 
+            // label34
+            // 
+            this.label34.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label34.Location = new System.Drawing.Point(259, 210);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(349, 43);
+            this.label34.TabIndex = 28;
+            this.label34.Text = "(If any of your member doesn\'t have valid email,use a demo email using this templ" +
+    "ate demo..@mm.app ,tell him to set the valid email later.)";
+            // 
+            // back4createadd
+            // 
+            this.back4createadd.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.back4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back4createadd.Location = new System.Drawing.Point(339, 476);
+            this.back4createadd.Name = "back4createadd";
+            this.back4createadd.Size = new System.Drawing.Size(75, 23);
+            this.back4createadd.TabIndex = 27;
+            this.back4createadd.Text = "Back";
+            this.back4createadd.UseVisualStyleBackColor = false;
+            this.back4createadd.Click += new System.EventHandler(this.back4createadd_Click);
+            // 
+            // submit4createadd
+            // 
+            this.submit4createadd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.submit4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submit4createadd.Location = new System.Drawing.Point(263, 427);
+            this.submit4createadd.Name = "submit4createadd";
+            this.submit4createadd.Size = new System.Drawing.Size(204, 23);
+            this.submit4createadd.TabIndex = 26;
+            this.submit4createadd.Text = "Sumbit";
+            this.submit4createadd.UseVisualStyleBackColor = false;
+            this.submit4createadd.Click += new System.EventHandler(this.submit4createadd_Click);
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(259, 265);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(137, 16);
+            this.label33.TabIndex = 25;
+            this.label33.Text = "Select Member Role?";
+            // 
+            // radioButton4createaddmem
+            // 
+            this.radioButton4createaddmem.AutoSize = true;
+            this.radioButton4createaddmem.Location = new System.Drawing.Point(262, 331);
+            this.radioButton4createaddmem.Name = "radioButton4createaddmem";
+            this.radioButton4createaddmem.Size = new System.Drawing.Size(63, 17);
+            this.radioButton4createaddmem.TabIndex = 24;
+            this.radioButton4createaddmem.TabStop = true;
+            this.radioButton4createaddmem.Text = "Member";
+            this.radioButton4createaddmem.UseVisualStyleBackColor = true;
+            this.radioButton4createaddmem.CheckedChanged += new System.EventHandler(this.radioButton4createaddmem_CheckedChanged);
+            // 
+            // radioButton4createadd
+            // 
+            this.radioButton4createadd.AutoSize = true;
+            this.radioButton4createadd.Location = new System.Drawing.Point(262, 300);
+            this.radioButton4createadd.Name = "radioButton4createadd";
+            this.radioButton4createadd.Size = new System.Drawing.Size(67, 17);
+            this.radioButton4createadd.TabIndex = 23;
+            this.radioButton4createadd.TabStop = true;
+            this.radioButton4createadd.Text = "Manager";
+            this.radioButton4createadd.UseVisualStyleBackColor = true;
+            this.radioButton4createadd.CheckedChanged += new System.EventHandler(this.radioButton4createadd_CheckedChanged);
+            // 
+            // email4createadd
+            // 
+            this.email4createadd.Location = new System.Drawing.Point(262, 185);
+            this.email4createadd.Name = "email4createadd";
+            this.email4createadd.Size = new System.Drawing.Size(205, 20);
+            this.email4createadd.TabIndex = 22;
+            this.email4createadd.TextChanged += new System.EventHandler(this.email4createadd_TextChanged);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(259, 149);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(146, 16);
+            this.label35.TabIndex = 20;
+            this.label35.Text = "Member email address";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label36.Location = new System.Drawing.Point(304, 30);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(259, 24);
+            this.label36.TabIndex = 19;
+            this.label36.Text = "Create  Add Mess Member";
             // 
             // back4addmem
             // 
@@ -1090,164 +1236,19 @@
             this.panelcontent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelcontent.Location = new System.Drawing.Point(200, 68);
             this.panelcontent.Name = "panelcontent";
-            this.panelcontent.Size = new System.Drawing.Size(887, 520);
+            this.panelcontent.Size = new System.Drawing.Size(911, 527);
             this.panelcontent.TabIndex = 14;
-            // 
-            // panel4createaddmem
-            // 
-            this.panel4createaddmem.Controls.Add(this.label38);
-            this.panel4createaddmem.Controls.Add(this.textBox4createadd);
-            this.panel4createaddmem.Controls.Add(this.label37);
-            this.panel4createaddmem.Controls.Add(this.label34);
-            this.panel4createaddmem.Controls.Add(this.back4createadd);
-            this.panel4createaddmem.Controls.Add(this.submit4createadd);
-            this.panel4createaddmem.Controls.Add(this.label33);
-            this.panel4createaddmem.Controls.Add(this.radioButton4createaddmem);
-            this.panel4createaddmem.Controls.Add(this.radioButton4createadd);
-            this.panel4createaddmem.Controls.Add(this.email4createadd);
-            this.panel4createaddmem.Controls.Add(this.label35);
-            this.panel4createaddmem.Controls.Add(this.label36);
-            this.panel4createaddmem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4createaddmem.Location = new System.Drawing.Point(0, 0);
-            this.panel4createaddmem.Name = "panel4createaddmem";
-            this.panel4createaddmem.Size = new System.Drawing.Size(887, 520);
-            this.panel4createaddmem.TabIndex = 19;
-            this.panel4createaddmem.Visible = false;
-            // 
-            // back4createadd
-            // 
-            this.back4createadd.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.back4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.back4createadd.Location = new System.Drawing.Point(339, 476);
-            this.back4createadd.Name = "back4createadd";
-            this.back4createadd.Size = new System.Drawing.Size(75, 23);
-            this.back4createadd.TabIndex = 27;
-            this.back4createadd.Text = "Back";
-            this.back4createadd.UseVisualStyleBackColor = false;
-            this.back4createadd.Click += new System.EventHandler(this.back4createadd_Click);
-            // 
-            // submit4createadd
-            // 
-            this.submit4createadd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.submit4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submit4createadd.Location = new System.Drawing.Point(263, 427);
-            this.submit4createadd.Name = "submit4createadd";
-            this.submit4createadd.Size = new System.Drawing.Size(204, 23);
-            this.submit4createadd.TabIndex = 26;
-            this.submit4createadd.Text = "Sumbit";
-            this.submit4createadd.UseVisualStyleBackColor = false;
-            this.submit4createadd.Click += new System.EventHandler(this.submit4createadd_Click);
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(259, 265);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(137, 16);
-            this.label33.TabIndex = 25;
-            this.label33.Text = "Select Member Role?";
-            // 
-            // radioButton4createaddmem
-            // 
-            this.radioButton4createaddmem.AutoSize = true;
-            this.radioButton4createaddmem.Location = new System.Drawing.Point(262, 331);
-            this.radioButton4createaddmem.Name = "radioButton4createaddmem";
-            this.radioButton4createaddmem.Size = new System.Drawing.Size(63, 17);
-            this.radioButton4createaddmem.TabIndex = 24;
-            this.radioButton4createaddmem.TabStop = true;
-            this.radioButton4createaddmem.Text = "Member";
-            this.radioButton4createaddmem.UseVisualStyleBackColor = true;
-            this.radioButton4createaddmem.CheckedChanged += new System.EventHandler(this.radioButton4createaddmem_CheckedChanged);
-            // 
-            // radioButton4createadd
-            // 
-            this.radioButton4createadd.AutoSize = true;
-            this.radioButton4createadd.Location = new System.Drawing.Point(262, 300);
-            this.radioButton4createadd.Name = "radioButton4createadd";
-            this.radioButton4createadd.Size = new System.Drawing.Size(67, 17);
-            this.radioButton4createadd.TabIndex = 23;
-            this.radioButton4createadd.TabStop = true;
-            this.radioButton4createadd.Text = "Manager";
-            this.radioButton4createadd.UseVisualStyleBackColor = true;
-            this.radioButton4createadd.CheckedChanged += new System.EventHandler(this.radioButton4createadd_CheckedChanged);
-            // 
-            // email4createadd
-            // 
-            this.email4createadd.Location = new System.Drawing.Point(262, 185);
-            this.email4createadd.Name = "email4createadd";
-            this.email4createadd.Size = new System.Drawing.Size(205, 20);
-            this.email4createadd.TabIndex = 22;
-            this.email4createadd.TextChanged += new System.EventHandler(this.email4createadd_TextChanged);
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(259, 149);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(146, 16);
-            this.label35.TabIndex = 20;
-            this.label35.Text = "Member email address";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label36.Location = new System.Drawing.Point(304, 30);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(259, 24);
-            this.label36.TabIndex = 19;
-            this.label36.Text = "Create  Add Mess Member";
-            // 
-            // label34
-            // 
-            this.label34.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label34.Location = new System.Drawing.Point(259, 210);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(349, 43);
-            this.label34.TabIndex = 28;
-            this.label34.Text = "(If any of your member doesn\'t have valid email,use a demo email using this templ" +
-    "ate demo..@mm.app ,tell him to set the valid email later.)";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(259, 73);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(113, 16);
-            this.label37.TabIndex = 29;
-            this.label37.Text = "Member full name";
-            // 
-            // textBox4createadd
-            // 
-            this.textBox4createadd.Location = new System.Drawing.Point(262, 110);
-            this.textBox4createadd.Name = "textBox4createadd";
-            this.textBox4createadd.Size = new System.Drawing.Size(205, 20);
-            this.textBox4createadd.TabIndex = 30;
-            this.textBox4createadd.TextChanged += new System.EventHandler(this.textBox4createadd_TextChanged);
-            // 
-            // label38
-            // 
-            this.label38.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label38.Location = new System.Drawing.Point(262, 363);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(330, 32);
-            this.label38.TabIndex = 31;
-            this.label38.Text = "New member\'s default password is: 123456 , use this password for log In to his ac" +
-    "count, then change default password ";
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 588);
+            this.ClientSize = new System.Drawing.Size(1111, 595);
             this.Controls.Add(this.panelcontent);
             this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.toppnl.ResumeLayout(false);
             this.leftpnl.ResumeLayout(false);
@@ -1265,11 +1266,11 @@
             this.panelc7.PerformLayout();
             this.panel4addmember.ResumeLayout(false);
             this.panel4addmember.PerformLayout();
+            this.panel4createaddmem.ResumeLayout(false);
+            this.panel4createaddmem.PerformLayout();
             this.defaultmealbl.ResumeLayout(false);
             this.defaultmealbl.PerformLayout();
             this.panelcontent.ResumeLayout(false);
-            this.panel4createaddmem.ResumeLayout(false);
-            this.panel4createaddmem.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 84);
+            this.label1.Location = new System.Drawing.Point(404, 121);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 17);
@@ -58,7 +58,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(55, 106);
+            this.label2.Location = new System.Drawing.Point(404, 143);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(213, 13);
@@ -68,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(55, 133);
+            this.label3.Location = new System.Drawing.Point(404, 170);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 13);
@@ -78,7 +78,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(55, 176);
+            this.label4.Location = new System.Drawing.Point(404, 213);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
@@ -88,7 +88,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 223);
+            this.label5.Location = new System.Drawing.Point(404, 260);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(106, 13);
@@ -98,7 +98,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(55, 270);
+            this.label6.Location = new System.Drawing.Point(404, 307);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 13);
@@ -107,32 +107,32 @@
             // 
             // EmailtextBox
             // 
-            this.EmailtextBox.Location = new System.Drawing.Point(57, 148);
-            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmailtextBox.Location = new System.Drawing.Point(406, 185);
+            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(249, 20);
             this.EmailtextBox.TabIndex = 6;
             // 
             // NametextBox
             // 
-            this.NametextBox.Location = new System.Drawing.Point(57, 191);
-            this.NametextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NametextBox.Location = new System.Drawing.Point(406, 228);
+            this.NametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.NametextBox.Name = "NametextBox";
             this.NametextBox.Size = new System.Drawing.Size(249, 20);
             this.NametextBox.TabIndex = 7;
             // 
             // PasswordtextBox
             // 
-            this.PasswordtextBox.Location = new System.Drawing.Point(57, 238);
-            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordtextBox.Location = new System.Drawing.Point(406, 275);
+            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
             this.PasswordtextBox.Size = new System.Drawing.Size(249, 20);
             this.PasswordtextBox.TabIndex = 8;
             // 
             // Password2textBox
             // 
-            this.Password2textBox.Location = new System.Drawing.Point(57, 285);
-            this.Password2textBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Password2textBox.Location = new System.Drawing.Point(406, 322);
+            this.Password2textBox.Margin = new System.Windows.Forms.Padding(2);
             this.Password2textBox.Name = "Password2textBox";
             this.Password2textBox.Size = new System.Drawing.Size(249, 20);
             this.Password2textBox.TabIndex = 9;
@@ -142,8 +142,8 @@
             this.Registerbutton.BackColor = System.Drawing.Color.Red;
             this.Registerbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Registerbutton.ForeColor = System.Drawing.Color.White;
-            this.Registerbutton.Location = new System.Drawing.Point(130, 313);
-            this.Registerbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Registerbutton.Location = new System.Drawing.Point(479, 350);
+            this.Registerbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Registerbutton.Name = "Registerbutton";
             this.Registerbutton.Size = new System.Drawing.Size(92, 25);
             this.Registerbutton.TabIndex = 10;
@@ -154,7 +154,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(168, 346);
+            this.label7.Location = new System.Drawing.Point(517, 383);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(16, 13);
@@ -164,7 +164,7 @@
             // LogInlinkLabel
             // 
             this.LogInlinkLabel.AutoSize = true;
-            this.LogInlinkLabel.Location = new System.Drawing.Point(88, 367);
+            this.LogInlinkLabel.Location = new System.Drawing.Point(437, 404);
             this.LogInlinkLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LogInlinkLabel.Name = "LogInlinkLabel";
             this.LogInlinkLabel.Size = new System.Drawing.Size(183, 13);
@@ -177,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 438);
+            this.ClientSize = new System.Drawing.Size(1036, 543);
             this.Controls.Add(this.LogInlinkLabel);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Registerbutton);
@@ -191,8 +191,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

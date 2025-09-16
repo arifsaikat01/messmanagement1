@@ -48,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1108, 57);
+            this.panel1.Size = new System.Drawing.Size(1111, 57);
             this.panel1.TabIndex = 0;
             // 
             // textBox4createmess
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 583);
+            this.ClientSize = new System.Drawing.Size(1111, 595);
             this.Controls.Add(this.textBox4createmess);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label34);
@@ -178,6 +178,7 @@
             this.Controls.Add(this.label36);
             this.Controls.Add(this.panel1);
             this.Name = "Form8";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form8";
             this.ResumeLayout(false);
             this.PerformLayout();
