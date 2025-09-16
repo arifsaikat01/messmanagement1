@@ -51,6 +51,16 @@
             this.panelc4 = new System.Windows.Forms.Panel();
             this.panelc5 = new System.Windows.Forms.Panel();
             this.panelc6 = new System.Windows.Forms.Panel();
+            this.panelc7 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.dateTimePicker4mealcost = new System.Windows.Forms.DateTimePicker();
+            this.label25 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -96,18 +106,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonaddmem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-
             this.panelcontent = new System.Windows.Forms.Panel();
-            this.panelc7 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.toppnl.SuspendLayout();
             this.leftpnl.SuspendLayout();
             this.panelc1.SuspendLayout();
@@ -116,10 +115,9 @@
             this.panelc4.SuspendLayout();
             this.panelc5.SuspendLayout();
             this.panelc6.SuspendLayout();
+            this.panelc7.SuspendLayout();
             this.defaultmealbl.SuspendLayout();
             this.panelcontent.SuspendLayout();
-            this.panelc7.SuspendLayout();
-
             this.SuspendLayout();
             // 
             // toppnl
@@ -398,6 +396,109 @@
             this.panelc6.Size = new System.Drawing.Size(887, 520);
             this.panelc6.TabIndex = 19;
             this.panelc6.Visible = false;
+            // 
+            // panelc7
+            // 
+            this.panelc7.Controls.Add(this.checkBox1);
+            this.panelc7.Controls.Add(this.button1);
+            this.panelc7.Controls.Add(this.comboBox1);
+            this.panelc7.Controls.Add(this.label28);
+            this.panelc7.Controls.Add(this.textBox1);
+            this.panelc7.Controls.Add(this.label27);
+            this.panelc7.Controls.Add(this.label26);
+            this.panelc7.Controls.Add(this.dateTimePicker4mealcost);
+            this.panelc7.Controls.Add(this.label25);
+            this.panelc7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelc7.Location = new System.Drawing.Point(0, 0);
+            this.panelc7.Name = "panelc7";
+            this.panelc7.Size = new System.Drawing.Size(887, 520);
+            this.panelc7.TabIndex = 15;
+            this.panelc7.Visible = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(308, 321);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(204, 17);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "Add also as Deposit For this shopper?";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Location = new System.Drawing.Point(376, 373);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 31);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Sumbit";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(307, 289);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 21);
+            this.comboBox1.TabIndex = 6;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(305, 260);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(103, 16);
+            this.label28.TabIndex = 5;
+            this.label28.Text = "Select  Shopper";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(307, 204);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(200, 20);
+            this.textBox1.TabIndex = 4;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(305, 183);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(115, 16);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Meal Cost Amount";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(304, 108);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(77, 16);
+            this.label26.TabIndex = 2;
+            this.label26.Text = "Select Date";
+            // 
+            // dateTimePicker4mealcost
+            // 
+            this.dateTimePicker4mealcost.Location = new System.Drawing.Point(307, 133);
+            this.dateTimePicker4mealcost.Name = "dateTimePicker4mealcost";
+            this.dateTimePicker4mealcost.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker4mealcost.TabIndex = 1;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.White;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label25.Location = new System.Drawing.Point(352, 45);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(146, 24);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Add Meal Cost";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label22
             // 
@@ -845,125 +946,14 @@
             this.panelcontent.Size = new System.Drawing.Size(887, 520);
             this.panelcontent.TabIndex = 14;
             // 
-            // panelc7
-            // 
-            this.panelc7.Controls.Add(this.checkBox1);
-            this.panelc7.Controls.Add(this.button1);
-            this.panelc7.Controls.Add(this.comboBox1);
-            this.panelc7.Controls.Add(this.label28);
-            this.panelc7.Controls.Add(this.textBox1);
-            this.panelc7.Controls.Add(this.label27);
-            this.panelc7.Controls.Add(this.label26);
-            this.panelc7.Controls.Add(this.dateTimePicker1);
-            this.panelc7.Controls.Add(this.label25);
-            this.panelc7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelc7.Location = new System.Drawing.Point(0, 0);
-            this.panelc7.Name = "panelc7";
-            this.panelc7.Size = new System.Drawing.Size(887, 520);
-            this.panelc7.TabIndex = 15;
-            this.panelc7.Visible = false;
-            // 
-
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.White;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label25.Location = new System.Drawing.Point(352, 45);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(146, 24);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Add Meal Cost";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(307, 133);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(304, 108);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(77, 16);
-            this.label26.TabIndex = 2;
-            this.label26.Text = "Select Date";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(305, 183);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(115, 16);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "Meal Cost Amount";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(307, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 4;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(305, 260);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(103, 16);
-            this.label28.TabIndex = 5;
-            this.label28.Text = "Select  Shopper";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(307, 289);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 6;
-
-            // 
-            // FbGroupbutton
-            // 
-
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(376, 373);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 31);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Sumbit";
-            this.button1.UseVisualStyleBackColor = false;
-
-            // 
-            // checkBox1
-            // 
-
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(308, 321);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(204, 17);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Add also as Deposit For this shopper?";
-            this.checkBox1.UseVisualStyleBackColor = true;
-
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
             this.ClientSize = new System.Drawing.Size(1087, 588);
             this.Controls.Add(this.panelcontent);
             this.Controls.Add(this.leftpnl);
             this.Controls.Add(this.toppnl);
-
             this.Name = "Form4";
             this.Text = "Form4";
             this.toppnl.ResumeLayout(false);
@@ -978,11 +968,11 @@
             this.panelc5.ResumeLayout(false);
             this.panelc6.ResumeLayout(false);
             this.panelc6.PerformLayout();
+            this.panelc7.ResumeLayout(false);
+            this.panelc7.PerformLayout();
             this.defaultmealbl.ResumeLayout(false);
             this.defaultmealbl.PerformLayout();
             this.panelcontent.ResumeLayout(false);
-            this.panelc7.ResumeLayout(false);
-            this.panelc7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1063,7 +1053,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker4mealcost;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
