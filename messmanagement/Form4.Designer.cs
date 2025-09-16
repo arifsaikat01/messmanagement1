@@ -52,6 +52,16 @@
             this.panelc5 = new System.Windows.Forms.Panel();
             this.panelc6 = new System.Windows.Forms.Panel();
             this.panelc7 = new System.Windows.Forms.Panel();
+            this.panel4addmember = new System.Windows.Forms.Panel();
+            this.back4addmem = new System.Windows.Forms.Button();
+            this.submit4addmem = new System.Windows.Forms.Button();
+            this.label32 = new System.Windows.Forms.Label();
+            this.radioButton4addmem = new System.Windows.Forms.RadioButton();
+            this.radioButton4addman = new System.Windows.Forms.RadioButton();
+            this.textBox4addmem = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.checkBox4mealcost = new System.Windows.Forms.CheckBox();
             this.submit4mealcost = new System.Windows.Forms.Button();
             this.comboBox4selectshoper = new System.Windows.Forms.ComboBox();
@@ -107,16 +117,19 @@
             this.buttonaddmem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panelcontent = new System.Windows.Forms.Panel();
-            this.panel4addmember = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox4addmem = new System.Windows.Forms.TextBox();
-            this.radioButton4addman = new System.Windows.Forms.RadioButton();
-            this.radioButton4addmem = new System.Windows.Forms.RadioButton();
-            this.label32 = new System.Windows.Forms.Label();
-            this.submit4addmem = new System.Windows.Forms.Button();
-            this.back4addmem = new System.Windows.Forms.Button();
+            this.panel4createaddmem = new System.Windows.Forms.Panel();
+            this.back4createadd = new System.Windows.Forms.Button();
+            this.submit4createadd = new System.Windows.Forms.Button();
+            this.label33 = new System.Windows.Forms.Label();
+            this.radioButton4createaddmem = new System.Windows.Forms.RadioButton();
+            this.radioButton4createadd = new System.Windows.Forms.RadioButton();
+            this.email4createadd = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.textBox4createadd = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
             this.toppnl.SuspendLayout();
             this.leftpnl.SuspendLayout();
             this.panelc1.SuspendLayout();
@@ -126,9 +139,10 @@
             this.panelc5.SuspendLayout();
             this.panelc6.SuspendLayout();
             this.panelc7.SuspendLayout();
+            this.panel4addmember.SuspendLayout();
             this.defaultmealbl.SuspendLayout();
             this.panelcontent.SuspendLayout();
-            this.panel4addmember.SuspendLayout();
+            this.panel4createaddmem.SuspendLayout();
             this.SuspendLayout();
             // 
             // toppnl
@@ -426,6 +440,122 @@
             this.panelc7.Size = new System.Drawing.Size(887, 520);
             this.panelc7.TabIndex = 15;
             this.panelc7.Visible = false;
+            // 
+            // panel4addmember
+            // 
+            this.panel4addmember.Controls.Add(this.panel4createaddmem);
+            this.panel4addmember.Controls.Add(this.back4addmem);
+            this.panel4addmember.Controls.Add(this.submit4addmem);
+            this.panel4addmember.Controls.Add(this.label32);
+            this.panel4addmember.Controls.Add(this.radioButton4addmem);
+            this.panel4addmember.Controls.Add(this.radioButton4addman);
+            this.panel4addmember.Controls.Add(this.textBox4addmem);
+            this.panel4addmember.Controls.Add(this.label31);
+            this.panel4addmember.Controls.Add(this.label30);
+            this.panel4addmember.Controls.Add(this.label29);
+            this.panel4addmember.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4addmember.Location = new System.Drawing.Point(0, 0);
+            this.panel4addmember.Name = "panel4addmember";
+            this.panel4addmember.Size = new System.Drawing.Size(887, 520);
+            this.panel4addmember.TabIndex = 9;
+            this.panel4addmember.Visible = false;
+            // 
+            // back4addmem
+            // 
+            this.back4addmem.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.back4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back4addmem.Location = new System.Drawing.Point(357, 457);
+            this.back4addmem.Name = "back4addmem";
+            this.back4addmem.Size = new System.Drawing.Size(75, 23);
+            this.back4addmem.TabIndex = 18;
+            this.back4addmem.Text = "Back";
+            this.back4addmem.UseVisualStyleBackColor = false;
+            this.back4addmem.Click += new System.EventHandler(this.back4addmem_Click);
+            // 
+            // submit4addmem
+            // 
+            this.submit4addmem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.submit4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submit4addmem.Location = new System.Drawing.Point(281, 408);
+            this.submit4addmem.Name = "submit4addmem";
+            this.submit4addmem.Size = new System.Drawing.Size(204, 23);
+            this.submit4addmem.TabIndex = 16;
+            this.submit4addmem.Text = "Sumbit";
+            this.submit4addmem.UseVisualStyleBackColor = false;
+            this.submit4addmem.Click += new System.EventHandler(this.submit4addmem_Click);
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(277, 280);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(137, 16);
+            this.label32.TabIndex = 6;
+            this.label32.Text = "Select Member Role?";
+            // 
+            // radioButton4addmem
+            // 
+            this.radioButton4addmem.AutoSize = true;
+            this.radioButton4addmem.Location = new System.Drawing.Point(281, 344);
+            this.radioButton4addmem.Name = "radioButton4addmem";
+            this.radioButton4addmem.Size = new System.Drawing.Size(63, 17);
+            this.radioButton4addmem.TabIndex = 5;
+            this.radioButton4addmem.TabStop = true;
+            this.radioButton4addmem.Text = "Member";
+            this.radioButton4addmem.UseVisualStyleBackColor = true;
+            this.radioButton4addmem.CheckedChanged += new System.EventHandler(this.radioButton4addmem_CheckedChanged);
+            // 
+            // radioButton4addman
+            // 
+            this.radioButton4addman.AutoSize = true;
+            this.radioButton4addman.Location = new System.Drawing.Point(280, 314);
+            this.radioButton4addman.Name = "radioButton4addman";
+            this.radioButton4addman.Size = new System.Drawing.Size(67, 17);
+            this.radioButton4addman.TabIndex = 4;
+            this.radioButton4addman.TabStop = true;
+            this.radioButton4addman.Text = "Manager";
+            this.radioButton4addman.UseVisualStyleBackColor = true;
+            this.radioButton4addman.CheckedChanged += new System.EventHandler(this.radioButton4addman_CheckedChanged);
+            // 
+            // textBox4addmem
+            // 
+            this.textBox4addmem.Location = new System.Drawing.Point(280, 148);
+            this.textBox4addmem.Name = "textBox4addmem";
+            this.textBox4addmem.Size = new System.Drawing.Size(205, 20);
+            this.textBox4addmem.TabIndex = 3;
+            this.textBox4addmem.TextChanged += new System.EventHandler(this.textBox4addmem_TextChanged);
+            // 
+            // label31
+            // 
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label31.Location = new System.Drawing.Point(277, 185);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(360, 55);
+            this.label31.TabIndex = 2;
+            this.label31.Text = resources.GetString("label31.Text");
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(276, 110);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(146, 16);
+            this.label30.TabIndex = 1;
+            this.label30.Text = "Member email address";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label29.Location = new System.Drawing.Point(321, 38);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(186, 24);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Add Mess Member";
             // 
             // checkBox4mealcost
             // 
@@ -963,120 +1093,151 @@
             this.panelcontent.Size = new System.Drawing.Size(887, 520);
             this.panelcontent.TabIndex = 14;
             // 
-            // panel4addmember
+            // panel4createaddmem
             // 
-            this.panel4addmember.Controls.Add(this.back4addmem);
-            this.panel4addmember.Controls.Add(this.submit4addmem);
-            this.panel4addmember.Controls.Add(this.label32);
-            this.panel4addmember.Controls.Add(this.radioButton4addmem);
-            this.panel4addmember.Controls.Add(this.radioButton4addman);
-            this.panel4addmember.Controls.Add(this.textBox4addmem);
-            this.panel4addmember.Controls.Add(this.label31);
-            this.panel4addmember.Controls.Add(this.label30);
-            this.panel4addmember.Controls.Add(this.label29);
-            this.panel4addmember.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4addmember.Location = new System.Drawing.Point(0, 0);
-            this.panel4addmember.Name = "panel4addmember";
-            this.panel4addmember.Size = new System.Drawing.Size(887, 520);
-            this.panel4addmember.TabIndex = 9;
-            this.panel4addmember.Visible = false;
+            this.panel4createaddmem.Controls.Add(this.label38);
+            this.panel4createaddmem.Controls.Add(this.textBox4createadd);
+            this.panel4createaddmem.Controls.Add(this.label37);
+            this.panel4createaddmem.Controls.Add(this.label34);
+            this.panel4createaddmem.Controls.Add(this.back4createadd);
+            this.panel4createaddmem.Controls.Add(this.submit4createadd);
+            this.panel4createaddmem.Controls.Add(this.label33);
+            this.panel4createaddmem.Controls.Add(this.radioButton4createaddmem);
+            this.panel4createaddmem.Controls.Add(this.radioButton4createadd);
+            this.panel4createaddmem.Controls.Add(this.email4createadd);
+            this.panel4createaddmem.Controls.Add(this.label35);
+            this.panel4createaddmem.Controls.Add(this.label36);
+            this.panel4createaddmem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4createaddmem.Location = new System.Drawing.Point(0, 0);
+            this.panel4createaddmem.Name = "panel4createaddmem";
+            this.panel4createaddmem.Size = new System.Drawing.Size(887, 520);
+            this.panel4createaddmem.TabIndex = 19;
+            this.panel4createaddmem.Visible = false;
             // 
-            // label29
+            // back4createadd
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label29.Location = new System.Drawing.Point(321, 38);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(186, 24);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Add Mess Member";
+            this.back4createadd.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.back4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back4createadd.Location = new System.Drawing.Point(339, 476);
+            this.back4createadd.Name = "back4createadd";
+            this.back4createadd.Size = new System.Drawing.Size(75, 23);
+            this.back4createadd.TabIndex = 27;
+            this.back4createadd.Text = "Back";
+            this.back4createadd.UseVisualStyleBackColor = false;
+            this.back4createadd.Click += new System.EventHandler(this.back4createadd_Click);
             // 
-            // label30
+            // submit4createadd
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(276, 110);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(146, 16);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "Member email address";
+            this.submit4createadd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.submit4createadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submit4createadd.Location = new System.Drawing.Point(263, 427);
+            this.submit4createadd.Name = "submit4createadd";
+            this.submit4createadd.Size = new System.Drawing.Size(204, 23);
+            this.submit4createadd.TabIndex = 26;
+            this.submit4createadd.Text = "Sumbit";
+            this.submit4createadd.UseVisualStyleBackColor = false;
+            this.submit4createadd.Click += new System.EventHandler(this.submit4createadd_Click);
             // 
-            // label31
+            // label33
             // 
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label31.Location = new System.Drawing.Point(277, 185);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(360, 55);
-            this.label31.TabIndex = 2;
-            this.label31.Text = resources.GetString("label31.Text");
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(259, 265);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(137, 16);
+            this.label33.TabIndex = 25;
+            this.label33.Text = "Select Member Role?";
             // 
-            // textBox4addmem
+            // radioButton4createaddmem
             // 
-            this.textBox4addmem.Location = new System.Drawing.Point(280, 148);
-            this.textBox4addmem.Name = "textBox4addmem";
-            this.textBox4addmem.Size = new System.Drawing.Size(205, 20);
-            this.textBox4addmem.TabIndex = 3;
-            this.textBox4addmem.TextChanged += new System.EventHandler(this.textBox4addmem_TextChanged);
+            this.radioButton4createaddmem.AutoSize = true;
+            this.radioButton4createaddmem.Location = new System.Drawing.Point(262, 331);
+            this.radioButton4createaddmem.Name = "radioButton4createaddmem";
+            this.radioButton4createaddmem.Size = new System.Drawing.Size(63, 17);
+            this.radioButton4createaddmem.TabIndex = 24;
+            this.radioButton4createaddmem.TabStop = true;
+            this.radioButton4createaddmem.Text = "Member";
+            this.radioButton4createaddmem.UseVisualStyleBackColor = true;
+            this.radioButton4createaddmem.CheckedChanged += new System.EventHandler(this.radioButton4createaddmem_CheckedChanged);
             // 
-            // radioButton4addman
+            // radioButton4createadd
             // 
-            this.radioButton4addman.AutoSize = true;
-            this.radioButton4addman.Location = new System.Drawing.Point(280, 314);
-            this.radioButton4addman.Name = "radioButton4addman";
-            this.radioButton4addman.Size = new System.Drawing.Size(67, 17);
-            this.radioButton4addman.TabIndex = 4;
-            this.radioButton4addman.TabStop = true;
-            this.radioButton4addman.Text = "Manager";
-            this.radioButton4addman.UseVisualStyleBackColor = true;
-            this.radioButton4addman.CheckedChanged += new System.EventHandler(this.radioButton4addman_CheckedChanged);
+            this.radioButton4createadd.AutoSize = true;
+            this.radioButton4createadd.Location = new System.Drawing.Point(262, 300);
+            this.radioButton4createadd.Name = "radioButton4createadd";
+            this.radioButton4createadd.Size = new System.Drawing.Size(67, 17);
+            this.radioButton4createadd.TabIndex = 23;
+            this.radioButton4createadd.TabStop = true;
+            this.radioButton4createadd.Text = "Manager";
+            this.radioButton4createadd.UseVisualStyleBackColor = true;
+            this.radioButton4createadd.CheckedChanged += new System.EventHandler(this.radioButton4createadd_CheckedChanged);
             // 
-            // radioButton4addmem
+            // email4createadd
             // 
-            this.radioButton4addmem.AutoSize = true;
-            this.radioButton4addmem.Location = new System.Drawing.Point(281, 344);
-            this.radioButton4addmem.Name = "radioButton4addmem";
-            this.radioButton4addmem.Size = new System.Drawing.Size(63, 17);
-            this.radioButton4addmem.TabIndex = 5;
-            this.radioButton4addmem.TabStop = true;
-            this.radioButton4addmem.Text = "Member";
-            this.radioButton4addmem.UseVisualStyleBackColor = true;
-            this.radioButton4addmem.CheckedChanged += new System.EventHandler(this.radioButton4addmem_CheckedChanged);
+            this.email4createadd.Location = new System.Drawing.Point(262, 185);
+            this.email4createadd.Name = "email4createadd";
+            this.email4createadd.Size = new System.Drawing.Size(205, 20);
+            this.email4createadd.TabIndex = 22;
+            this.email4createadd.TextChanged += new System.EventHandler(this.email4createadd_TextChanged);
             // 
-            // label32
+            // label35
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(277, 280);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(137, 16);
-            this.label32.TabIndex = 6;
-            this.label32.Text = "Select Member Role?";
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(259, 149);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(146, 16);
+            this.label35.TabIndex = 20;
+            this.label35.Text = "Member email address";
             // 
-            // submit4addmem
+            // label36
             // 
-            this.submit4addmem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.submit4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submit4addmem.Location = new System.Drawing.Point(281, 408);
-            this.submit4addmem.Name = "submit4addmem";
-            this.submit4addmem.Size = new System.Drawing.Size(204, 23);
-            this.submit4addmem.TabIndex = 16;
-            this.submit4addmem.Text = "Sumbit";
-            this.submit4addmem.UseVisualStyleBackColor = false;
-            this.submit4addmem.Click += new System.EventHandler(this.submit4addmem_Click);
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label36.Location = new System.Drawing.Point(304, 30);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(259, 24);
+            this.label36.TabIndex = 19;
+            this.label36.Text = "Create  Add Mess Member";
             // 
-            // back4addmem
+            // label34
             // 
-            this.back4addmem.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.back4addmem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.back4addmem.Location = new System.Drawing.Point(357, 457);
-            this.back4addmem.Name = "back4addmem";
-            this.back4addmem.Size = new System.Drawing.Size(75, 23);
-            this.back4addmem.TabIndex = 18;
-            this.back4addmem.Text = "Back";
-            this.back4addmem.UseVisualStyleBackColor = false;
-            this.back4addmem.Click += new System.EventHandler(this.back4addmem_Click);
+            this.label34.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label34.Location = new System.Drawing.Point(259, 210);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(349, 43);
+            this.label34.TabIndex = 28;
+            this.label34.Text = "(If any of your member doesn\'t have valid email,use a demo email using this templ" +
+    "ate demo..@mm.app ,tell him to set the valid email later.)";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(259, 73);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(113, 16);
+            this.label37.TabIndex = 29;
+            this.label37.Text = "Member full name";
+            // 
+            // textBox4createadd
+            // 
+            this.textBox4createadd.Location = new System.Drawing.Point(262, 110);
+            this.textBox4createadd.Name = "textBox4createadd";
+            this.textBox4createadd.Size = new System.Drawing.Size(205, 20);
+            this.textBox4createadd.TabIndex = 30;
+            this.textBox4createadd.TextChanged += new System.EventHandler(this.textBox4createadd_TextChanged);
+            // 
+            // label38
+            // 
+            this.label38.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label38.Location = new System.Drawing.Point(262, 363);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(330, 32);
+            this.label38.TabIndex = 31;
+            this.label38.Text = "New member\'s default password is: 123456 , use this password for log In to his ac" +
+    "count, then change default password ";
             // 
             // Form4
             // 
@@ -1102,11 +1263,13 @@
             this.panelc6.PerformLayout();
             this.panelc7.ResumeLayout(false);
             this.panelc7.PerformLayout();
+            this.panel4addmember.ResumeLayout(false);
+            this.panel4addmember.PerformLayout();
             this.defaultmealbl.ResumeLayout(false);
             this.defaultmealbl.PerformLayout();
             this.panelcontent.ResumeLayout(false);
-            this.panel4addmember.ResumeLayout(false);
-            this.panel4addmember.PerformLayout();
+            this.panel4createaddmem.ResumeLayout(false);
+            this.panel4createaddmem.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1202,5 +1365,18 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Button back4addmem;
+        private System.Windows.Forms.Panel panel4createaddmem;
+        private System.Windows.Forms.TextBox textBox4createadd;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button back4createadd;
+        private System.Windows.Forms.Button submit4createadd;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.RadioButton radioButton4createaddmem;
+        private System.Windows.Forms.RadioButton radioButton4createadd;
+        private System.Windows.Forms.TextBox email4createadd;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label38;
     }
 }
