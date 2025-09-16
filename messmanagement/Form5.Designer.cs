@@ -89,7 +89,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(870, 69);
+            this.panel1.Size = new System.Drawing.Size(1111, 69);
             this.panel1.TabIndex = 6;
             // 
             // button5
@@ -147,7 +147,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_13_183405_messmanager_app;
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(352, 92);
+            this.pictureBox2.Location = new System.Drawing.Point(473, 160);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(182, 145);
             this.pictureBox2.TabIndex = 16;
@@ -157,7 +157,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(405, 250);
+            this.label4.Location = new System.Drawing.Point(526, 318);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 13);
             this.label4.TabIndex = 15;
@@ -167,7 +167,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Black;
             this.button7.ForeColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(299, 363);
+            this.button7.Location = new System.Drawing.Point(420, 431);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(295, 33);
             this.button7.TabIndex = 14;
@@ -178,7 +178,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Black;
             this.button8.ForeColor = System.Drawing.Color.Transparent;
-            this.button8.Location = new System.Drawing.Point(299, 324);
+            this.button8.Location = new System.Drawing.Point(420, 392);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(295, 33);
             this.button8.TabIndex = 13;
@@ -188,7 +188,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(296, 292);
+            this.label5.Location = new System.Drawing.Point(417, 360);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(298, 13);
             this.label5.TabIndex = 12;
@@ -198,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 450);
+            this.ClientSize = new System.Drawing.Size(1111, 595);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button7);
@@ -206,6 +206,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.logopictureBox)).EndInit();
             this.panel1.ResumeLayout(false);

@@ -54,7 +54,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(925, 68);
+            this.panel1.Size = new System.Drawing.Size(1111, 68);
             this.panel1.TabIndex = 8;
             // 
             // button7
@@ -108,7 +108,7 @@
             // 
             // ShowUserInforichTextBox
             // 
-            this.ShowUserInforichTextBox.Location = new System.Drawing.Point(277, 276);
+            this.ShowUserInforichTextBox.Location = new System.Drawing.Point(377, 333);
             this.ShowUserInforichTextBox.Name = "ShowUserInforichTextBox";
             this.ShowUserInforichTextBox.Size = new System.Drawing.Size(379, 151);
             this.ShowUserInforichTextBox.TabIndex = 16;
@@ -116,7 +116,7 @@
             // 
             // UserNametextBox
             // 
-            this.UserNametextBox.Location = new System.Drawing.Point(376, 205);
+            this.UserNametextBox.Location = new System.Drawing.Point(476, 262);
             this.UserNametextBox.Name = "UserNametextBox";
             this.UserNametextBox.Size = new System.Drawing.Size(162, 20);
             this.UserNametextBox.TabIndex = 15;
@@ -125,7 +125,7 @@
             // 
             this.userInfolabel.AutoSize = true;
             this.userInfolabel.ForeColor = System.Drawing.Color.Red;
-            this.userInfolabel.Location = new System.Drawing.Point(274, 241);
+            this.userInfolabel.Location = new System.Drawing.Point(374, 298);
             this.userInfolabel.Name = "userInfolabel";
             this.userInfolabel.Size = new System.Drawing.Size(50, 13);
             this.userInfolabel.TabIndex = 14;
@@ -134,7 +134,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::messmanagement.Properties.Resources.Opera_Snapshot_2025_09_15_205621_messmanager_app;
-            this.pictureBox1.Location = new System.Drawing.Point(397, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(497, 131);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(123, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -145,13 +145,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(925, 450);
+            this.ClientSize = new System.Drawing.Size(1111, 595);
             this.Controls.Add(this.ShowUserInforichTextBox);
             this.Controls.Add(this.UserNametextBox);
             this.Controls.Add(this.userInfolabel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Name = "Form7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form7";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
