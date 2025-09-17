@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using WindowsFormsApp1;
 
 namespace messmanagement
 {
@@ -24,6 +25,11 @@ namespace messmanagement
             Form3 form3 = new Form3();
             form3.Show();
             this.Hide();
+        }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
