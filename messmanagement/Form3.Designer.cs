@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace messmanagement
 {
     partial class Form3
     {
